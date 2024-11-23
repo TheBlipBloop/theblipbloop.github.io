@@ -151,7 +151,7 @@ a:link, a:visited
 
 .text-404
 {
-	position: absolute;
+	/* position: absolute; */
 	font-size: 350px;
 	font-weight: bold;
 	display: flex;
