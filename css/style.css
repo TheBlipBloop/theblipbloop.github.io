@@ -1,7 +1,8 @@
 * { 
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+	/* text-overflow: wrap; */
 }
 
 h1 {
@@ -13,7 +14,7 @@ h1 {
 
 h2 {
 	font-family: 'Courier New', Courier, monospace;
-	font-weight: normal;
+	font-weight: bold;
 	padding: 8px;
 }
 
@@ -26,6 +27,8 @@ h3 {
 p
 {
 	padding: 8px;
+	line-height: 150%;
+	word-wrap: break-word;
 }
 
 body
@@ -58,7 +61,6 @@ header
 	font-family: 'Courier New', Courier, monospace;
 	background-color: antiquewhite;
 	top: 0;	
-	/* gap: 20px; */
 
 	display:flex;
 	flex-wrap:wrap;
@@ -67,6 +69,8 @@ header
 	margin-inline-end:auto;
 
 	/* max-height: 40px; */
+	/* border: 2px solid black; */
+	border-bottom: 2px solid black;
 }
 
 footer
@@ -92,7 +96,7 @@ a.header_home_text:link, a.header_home_text:visited
 {
 	color: black;
 	text-decoration: none;
-	margin: 24px;
+	margin: 40px;
 	display: flex;
 	margin-bottom: 4px;
 	margin-top: 4px;
@@ -129,7 +133,8 @@ a:link, a:visited
 
 .menu_item
 {
-	margin-inline-start: 30px;
+	margin-inline-start: 1vw;
+	margin-inline-end: 1vw;
 	display: flexbox;
 }
 
@@ -173,17 +178,17 @@ a:link, a:visited
 	margin: auto;
 	clip-path: var(--profile-shape); 
 	background: antiquewhite;
-	border: 35px solid antiquewhite;
-	margin-bottom: 24px;
+	border: 2px solid black;
 	transition: 0.1s;
-
-	/* profile_border_1:hover */
+	margin-bottom: 24px;
 } 
 
 #profile_border_0:hover
 {
 	transition: 0.2s;
 	transform: scale(105%);
+	background: rgb(0, 0, 0);
+	border: 2px solid black;
 }
 
 #profile_border_1
@@ -191,8 +196,8 @@ a:link, a:visited
 	width: fit-content;
 	margin: auto;
 	clip-path: var(--profile-shape); 
-	background: black;
-	border: 8px solid black;
+	background: rgb(0, 0, 0);
+	border: 35px solid antiquewhite;
 }
 
 #profile_border_2
@@ -200,8 +205,8 @@ a:link, a:visited
 	width: fit-content;
 	margin: auto;
 	clip-path: var(--profile-shape); 
-	background: rgb(0, 0, 0);
-	border: 20px solid rgb(0, 0, 0);
+	background: black;
+	border: 8px solid black;
 }
 
 #profile
@@ -239,9 +244,11 @@ a:link, a:visited
 	padding: 24px;
 	margin-top: 24px;
 	margin-bottom: 24px;
-	border-radius: 10px;
 	position: relative;
 	display: block;
+	
+	border: 2px solid black;
+	border-radius: 2px;
 }
 
 .post_entry:hover
@@ -266,8 +273,9 @@ a:link, a:visited
 {
 	border: 2px solid black;
 	margin: 32px;
-	padding: 32px;
+	/* padding: 32px; */
 	background: rgb(255, 248, 239);;
+	border-radius: 2px;
 }
 
 body

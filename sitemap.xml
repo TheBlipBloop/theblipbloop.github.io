@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://theblipbloop.github.io/blog/</loc>
+    <lastmod>2024-11-23T12:59:58-07:00</lastmod>
+  </url><url>
     <loc>https://theblipbloop.github.io/</loc>
-    <lastmod>2024-11-20T21:40:30-07:00</lastmod>
+    <lastmod>2024-11-23T12:59:58-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/blog/todo/</loc>
+    <lastmod>2024-11-23T12:59:58-07:00</lastmod>
   </url><url>
     <loc>https://theblipbloop.github.io/blog/blod_2/</loc>
-    <lastmod>2024-11-20T21:40:30-07:00</lastmod>
-  </url><url>
-    <loc>https://theblipbloop.github.io/blog/</loc>
     <lastmod>2024-11-20T21:40:30-07:00</lastmod>
   </url><url>
     <loc>https://theblipbloop.github.io/projects/blod_2/</loc>
