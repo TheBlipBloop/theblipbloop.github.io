@@ -1,0 +1,276 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+	font-family: 'Courier New', Courier, monospace; 
+	font-size: 64px;
+	font-weight: bold;
+	padding: 8px;
+}
+
+h2 {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: normal;
+	padding: 8px;
+}
+
+h3 {
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: normal;
+	padding: 8px;
+}
+
+p
+{
+	padding: 8px;
+}
+
+body
+{
+	font-family: 'Courier New', Courier, monospace;
+	/* margin-bottom: 24px; */
+	flex-direction: column;
+	background-color: rgb(255, 248, 239);
+	/* min-height: 100vh; */
+}
+
+#content
+{
+	/* vertical-align: middle; */
+	/* max-width: 700px; */
+	margin: auto;
+	/* text-wrap:pretty; */
+	flex: 1;
+	padding: 48px;
+	/* max-width: ; */
+	max-width: 80%;
+	height: 100%;
+}
+
+header
+{
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+
+	font-family: 'Courier New', Courier, monospace;
+	background-color: antiquewhite;
+	top: 0;	
+	/* gap: 20px; */
+
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+	margin-inline-start:auto;
+	margin-inline-end:auto;
+
+	/* max-height: 40px; */
+}
+
+footer
+{
+	font-family: 'Courier New', Courier, monospace;
+	background-color: rgb(0, 0, 0);
+	color: aliceblue;
+	text-align: center;
+	/* max-height: 110px; */
+	/* align-self: stretch; */
+}
+
+#footer
+{
+	bottom: 0;
+	left: 0;
+	right: 0;
+	/* position: fixed; */
+	padding: 12px;
+}
+
+a.header_home_text:link, a.header_home_text:visited
+{
+	color: black;
+	text-decoration: none;
+	margin: 24px;
+	display: flex;
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+a:link, a:visited
+{
+	/* color: white; */
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* #div_top_links */
+/* { */
+	/* display: inline; */
+	/* vertical-align: center; */
+/* } */
+
+#menu
+{
+	display: flex;
+	/* display: inline; */
+	list-style: none;
+	word-break: keep-all;
+	overflow-x: auto;
+	white-space: nowrap;
+	color: black;
+	margin: 24px;
+	margin-bottom: 4px;
+	margin-top: 4px;
+}
+
+/* TODO Figure out animations for menu items! */
+
+.menu_item
+{
+	margin-inline-start: 30px;
+	display: flexbox;
+}
+
+.menu_link
+{
+	color: black;
+	transition: 0.1s;
+}
+
+.menu_link:hover
+{
+	color: rgb(255, 0, 0);
+}
+
+.text-404
+{
+	position: absolute;
+	font-size: 350px;
+	font-weight: bold;
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	height: 80%;
+	left: 0;
+	right: 0;
+}
+
+/* Profile Configuration */
+
+:root
+{
+	/* --profile-shape: circle(50%); */
+	/* --profile-shape: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
+	--profile-shape: rectangle(50%);
+}
+
+#profile_border_0
+{
+	width: fit-content;
+	margin: auto;
+	clip-path: var(--profile-shape); 
+	background: antiquewhite;
+	border: 35px solid antiquewhite;
+	margin-bottom: 24px;
+	transition: 0.1s;
+
+	/* profile_border_1:hover */
+} 
+
+#profile_border_0:hover
+{
+	transition: 0.2s;
+	transform: scale(105%);
+}
+
+#profile_border_1
+{
+	width: fit-content;
+	margin: auto;
+	clip-path: var(--profile-shape); 
+	background: black;
+	border: 8px solid black;
+}
+
+#profile_border_2
+{
+	width: fit-content;
+	margin: auto;
+	clip-path: var(--profile-shape); 
+	background: rgb(0, 0, 0);
+	border: 20px solid rgb(0, 0, 0);
+}
+
+#profile
+{
+	clip-path: var(--profile-shape);
+	display: block; 
+	margin-left: auto; 
+	margin-right: auto;
+	height: 256px;
+	width: 256px;
+	/* border: 10px solid black; */
+	transition: 0.5s;
+}
+
+#profile_div
+{
+	text-align: center;
+	margin-right: auto;
+	margin-left: auto;
+	width: 80%;
+	/* padding: 24px; */
+	gap: 24px;
+}
+
+#profile_text
+{
+	display: block;
+}
+
+/* Post Configuration */
+
+.post_entry
+{
+	background-color: white;
+	padding: 24px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	border-radius: 10px;
+	position: relative;
+	display: block;
+}
+
+.post_entry:hover
+{
+	transition: 0.1s;
+	transform: scale(102%);
+}
+.post_entry:active
+{
+	transition: 0.1s;
+	transform: scale(98%);
+}
+
+
+#inner_container
+{
+	border: 1px solid black;
+	padding: 32px;
+}
+
+#outer_container
+{
+	border: 2px solid black;
+	margin: 32px;
+	padding: 32px;
+	background: rgb(255, 248, 239);;
+}
+
+body
+{
+	background-color: wheat;
+}
