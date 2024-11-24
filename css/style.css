@@ -5,9 +5,25 @@
 	/* text-overflow: wrap; */
 }
 
+
+:root
+{
+	--font-size-h1: 64px;
+	--font-size-h2: 20px;
+	--font-size-h3: 20px;
+	--font-size-normal: 18px;
+	--profile-shape: rectangle(50%);
+	--content-padding-width: 5%;
+	--outer-container-margin: 32px;
+	--post_entry_padding: 24px;
+}
+
+
+
 h1 {
 	font-family: 'Courier New', Courier, monospace; 
-	font-size: 64px;
+	/* font-size: 5vw; */
+	font-size: var(--font-size-h1);
 	font-weight: bold;
 	padding: 8px;
 }
@@ -15,20 +31,29 @@ h1 {
 h2 {
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: bold;
+	font-size: var(--font-size-h2);
 	padding: 8px;
 }
 
 h3 {
 	font-family: 'Courier New', Courier, monospace;
 	font-weight: normal;
+	font-size: var(--font-size-h3);
 	padding: 8px;
 }
 
 p
 {
+	font-family: 'Courier New', Courier;
 	padding: 8px;
-	line-height: 150%;
+	line-height: 1.4;
 	word-wrap: break-word;
+	font-size: var(--font-size-normal);
+}
+
+li
+{
+	font-size: var(--font-size-normal);
 }
 
 body
@@ -127,6 +152,7 @@ a:link, a:visited
 	margin: 24px;
 	margin-bottom: 4px;
 	margin-top: 4px;
+	padding-left: 0px;
 }
 
 /* TODO Figure out animations for menu items! */
@@ -165,12 +191,6 @@ a:link, a:visited
 
 /* Profile Configuration */
 
-:root
-{
-	/* --profile-shape: circle(50%); */
-	/* --profile-shape: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%); */
-	--profile-shape: rectangle(50%);
-}
 
 #profile_border_0
 {
@@ -196,7 +216,7 @@ a:link, a:visited
 	width: fit-content;
 	margin: auto;
 	clip-path: var(--profile-shape); 
-	background: rgb(0, 0, 0);
+	background: antiquewhite;
 	border: 35px solid antiquewhite;
 }
 
@@ -204,7 +224,7 @@ a:link, a:visited
 {
 	width: fit-content;
 	margin: auto;
-	clip-path: var(--profile-shape); 
+	clip-path: var(--profile-shape);
 	background: black;
 	border: 8px solid black;
 }
@@ -215,8 +235,8 @@ a:link, a:visited
 	display: block; 
 	margin-left: auto; 
 	margin-right: auto;
-	height: 256px;
-	width: 256px;
+	height: 25vw;
+	width: 25vw;
 	/* border: 10px solid black; */
 	transition: 0.5s;
 }
@@ -241,7 +261,7 @@ a:link, a:visited
 .post_entry
 {
 	background-color: white;
-	padding: 24px;
+	padding: (--post_entry_padding);
 	margin-top: 24px;
 	margin-bottom: 24px;
 	position: relative;
@@ -272,7 +292,7 @@ a:link, a:visited
 #outer_container
 {
 	border: 2px solid black;
-	margin: 32px;
+	margin: var(--outer-container-margin);
 	/* padding: 32px; */
 	background: rgb(255, 248, 239);;
 	border-radius: 2px;
@@ -281,4 +301,41 @@ a:link, a:visited
 body
 {
 	background-color: wheat;
+}
+
+.single_body
+{
+	margin-right: var(--content-padding-width);
+	margin-left: var(--content-padding-width);
+}
+
+
+@media only screen and (max-width: 620px) {
+	:root
+	{
+		--font-size-h1: 40px;
+		--font-size-h2: 18px;
+		--font-size-h3: 18px;
+		--font-size-normal: 14px;
+		--profile-shape: rectangle(50%);
+		--show-home-text: false;
+		--content-padding-width: 0%;
+		--outer-container-margin: 16px;
+		--post_entry_padding: 4px;
+	}
+
+	a.header_home_text:link, a.header_home_text:visited
+	{
+		display: none;
+		padding: -8px;
+		margin: 0;
+	}
+
+	#header
+	{
+		justify-content: center;
+		/* pos */
+		padding-left: 0x;
+		right:16px;
+	}
 }

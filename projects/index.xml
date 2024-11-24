@@ -1,31 +1,83 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>projects on ben</title>
+    <title>projects (wip!) on ben</title>
     <link>https://theblipbloop.github.io/projects/</link>
-    <description>Recent content in projects on ben</description>
+    <description>Recent content in projects (wip!) on ben</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2024, Benjamin Seckeler. All rights reserved.</copyright>
-    <lastBuildDate>Wed, 20 Nov 2024 21:40:30 -0700</lastBuildDate><atom:link href="https://theblipbloop.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Nov 2024 15:47:37 -0700</lastBuildDate><atom:link href="https://theblipbloop.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LONG</title>
-      <link>https://theblipbloop.github.io/projects/blod_2/</link>
-      <pubDate>Wed, 20 Nov 2024 21:40:30 -0700</pubDate>
+      <title>A Website</title>
+      <link>https://theblipbloop.github.io/projects/website/</link>
+      <pubDate>Sat, 23 Nov 2024 15:47:37 -0700</pubDate>
       
-      <guid>https://theblipbloop.github.io/projects/blod_2/</guid>
-      <description>Magnam omnis odit non reprehenderit. Ut exercitationem perspiciatis dolorem minus maxime. Recusandae quia quia temporibus culpa magni vero. Quod quia saepe accusantium quod. Officiis est consectetur tempore hic expedita et doloremque incidunt. Sint rerum quaerat deserunt molestias repellat et.
-Ut neque laborum aut aut et odio impedit. Earum quae sunt dicta et. Et nam quam porro. Accusamus non nesciunt non. Qui sit magni quibusdam sed.
-Minus consequatur earum tempore. Quod hic placeat sit doloremque commodi voluptatem illo rerum.</description>
+      <guid>https://theblipbloop.github.io/projects/website/</guid>
+      <description>I finally made a website.</description>
     </item>
     
     <item>
-      <title>bloggg</title>
-      <link>https://theblipbloop.github.io/projects/blog_post_0/</link>
-      <pubDate>Wed, 10 Feb 2016 10:00:00 +0000</pubDate>
+      <title>An Acorn Odyssey</title>
+      <link>https://theblipbloop.github.io/projects/an_acorn_odyssey/</link>
+      <pubDate>Tue, 07 Feb 2023 17:02:28 -0700</pubDate>
       
-      <guid>https://theblipbloop.github.io/projects/blog_post_0/</guid>
-      <description>asdsadsa asd asblog</description>
+      <guid>https://theblipbloop.github.io/projects/an_acorn_odyssey/</guid>
+      <description>Play as an Acorn sprouting into a tree!</description>
+    </item>
+    
+    <item>
+      <title>An Atypical Assassin</title>
+      <link>https://theblipbloop.github.io/projects/an_atypical_assassin/</link>
+      <pubDate>Sun, 24 Oct 2021 17:02:28 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/projects/an_atypical_assassin/</guid>
+      <description>Play as the worlds most&amp;hellip; unique assassin!</description>
+    </item>
+    
+    <item>
+      <title>FEED</title>
+      <link>https://theblipbloop.github.io/projects/feed/</link>
+      <pubDate>Sun, 19 Apr 2020 17:02:28 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/projects/feed/</guid>
+      <description>A goofy puzzle platformer created for Ludum Dare!</description>
+    </item>
+    
+    <item>
+      <title>Super Ship Builder</title>
+      <link>https://theblipbloop.github.io/projects/super_ship_builder/</link>
+      <pubDate>Sun, 08 Sep 2019 17:00:07 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/projects/super_ship_builder/</guid>
+      <description>You ever want to build a space ship? In space? As a ragdoll?</description>
+    </item>
+    
+    <item>
+      <title>Ravenfield Multiplayer Project</title>
+      <link>https://theblipbloop.github.io/projects/rfmp/</link>
+      <pubDate>Sun, 21 Jul 2019 16:13:47 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/projects/rfmp/</guid>
+      <description>A multiplayer remake of a popular indie game. Released on Steam.</description>
+    </item>
+    
+    <item>
+      <title>Cookie Catcher</title>
+      <link>https://theblipbloop.github.io/projects/cookie_catcher/cookie_catcher/</link>
+      <pubDate>Tue, 30 Oct 2018 16:50:14 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/projects/cookie_catcher/cookie_catcher/</guid>
+      <description>A movement puzzle game where you shoot rockets and eat cookies!</description>
+    </item>
+    
+    <item>
+      <title>CLUNK</title>
+      <link>https://theblipbloop.github.io/projects/clunk/</link>
+      <pubDate>Wed, 16 May 2018 16:43:19 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/projects/clunk/</guid>
+      <description>A 2D endless wave shooter with base building!</description>
     </item>
     
   </channel>

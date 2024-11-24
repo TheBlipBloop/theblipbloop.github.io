@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>home on ben</title>
-    <link>https://theblipbloop.github.io/</link>
-    <description>Recent content in home on ben</description>
+    <title>game on ben</title>
+    <link>https://theblipbloop.github.io/tags/game/</link>
+    <description>Recent content in game on ben</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2024, Benjamin Seckeler. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 23 Nov 2024 15:47:37 -0700</lastBuildDate><atom:link href="https://theblipbloop.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>A Website</title>
-      <link>https://theblipbloop.github.io/projects/website/</link>
-      <pubDate>Sat, 23 Nov 2024 15:47:37 -0700</pubDate>
-      
-      <guid>https://theblipbloop.github.io/projects/website/</guid>
-      <description>I finally made a website.</description>
-    </item>
-    
-    <item>
-      <title>TODO</title>
-      <link>https://theblipbloop.github.io/blog/todo/</link>
-      <pubDate>Sat, 23 Nov 2024 12:59:58 -0700</pubDate>
-      
-      <guid>https://theblipbloop.github.io/blog/todo/</guid>
-      <description>some things to do for this site</description>
-    </item>
-    
+    <lastBuildDate>Tue, 07 Feb 2023 17:02:28 -0700</lastBuildDate><atom:link href="https://theblipbloop.github.io/tags/game/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>An Acorn Odyssey</title>
       <link>https://theblipbloop.github.io/projects/an_acorn_odyssey/</link>
@@ -72,39 +54,12 @@
     </item>
     
     <item>
-      <title>Cookie Catcher</title>
-      <link>https://theblipbloop.github.io/projects/cookie_catcher/cookie_catcher/</link>
-      <pubDate>Tue, 30 Oct 2018 16:50:14 -0700</pubDate>
-      
-      <guid>https://theblipbloop.github.io/projects/cookie_catcher/cookie_catcher/</guid>
-      <description>A movement puzzle game where you shoot rockets and eat cookies!</description>
-    </item>
-    
-    <item>
       <title>CLUNK</title>
       <link>https://theblipbloop.github.io/projects/clunk/</link>
       <pubDate>Wed, 16 May 2018 16:43:19 -0700</pubDate>
       
       <guid>https://theblipbloop.github.io/projects/clunk/</guid>
       <description>A 2D endless wave shooter with base building!</description>
-    </item>
-    
-    <item>
-      <title>contact page</title>
-      <link>https://theblipbloop.github.io/contact/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://theblipbloop.github.io/contact/</guid>
-      <description>Send me an email!!! OR DIE!!! contact page</description>
-    </item>
-    
-    <item>
-      <title>epic home page</title>
-      <link>https://theblipbloop.github.io/404/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://theblipbloop.github.io/404/</guid>
-      <description></description>
     </item>
     
   </channel>

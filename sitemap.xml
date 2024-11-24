@@ -2,36 +2,58 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://theblipbloop.github.io/blog/</loc>
-    <lastmod>2024-11-23T12:59:58-07:00</lastmod>
+    <loc>https://theblipbloop.github.io/projects/website/</loc>
+    <lastmod>2024-11-23T15:47:37-07:00</lastmod>
   </url><url>
     <loc>https://theblipbloop.github.io/</loc>
+    <lastmod>2024-11-23T15:47:37-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/tags/ongoing/</loc>
+    <lastmod>2024-11-23T15:47:37-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/projects/</loc>
+    <lastmod>2024-11-23T15:47:37-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/tags/</loc>
+    <lastmod>2024-11-23T15:47:37-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/tags/webdev/</loc>
+    <lastmod>2024-11-23T15:47:37-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/blog/</loc>
     <lastmod>2024-11-23T12:59:58-07:00</lastmod>
   </url><url>
     <loc>https://theblipbloop.github.io/blog/todo/</loc>
     <lastmod>2024-11-23T12:59:58-07:00</lastmod>
   </url><url>
-    <loc>https://theblipbloop.github.io/blog/blod_2/</loc>
-    <lastmod>2024-11-20T21:40:30-07:00</lastmod>
+    <loc>https://theblipbloop.github.io/projects/an_acorn_odyssey/</loc>
+    <lastmod>2023-02-07T17:02:28-07:00</lastmod>
   </url><url>
-    <loc>https://theblipbloop.github.io/projects/blod_2/</loc>
-    <lastmod>2024-11-20T21:40:30-07:00</lastmod>
+    <loc>https://theblipbloop.github.io/tags/game/</loc>
+    <lastmod>2023-02-07T17:02:28-07:00</lastmod>
   </url><url>
-    <loc>https://theblipbloop.github.io/projects/</loc>
-    <lastmod>2024-11-20T21:40:30-07:00</lastmod>
+    <loc>https://theblipbloop.github.io/projects/an_atypical_assassin/</loc>
+    <lastmod>2021-10-24T17:02:28-07:00</lastmod>
   </url><url>
-    <loc>https://theblipbloop.github.io/blog/blog_post_0/</loc>
-    <lastmod>2016-02-10T10:00:00+00:00</lastmod>
+    <loc>https://theblipbloop.github.io/projects/feed/</loc>
+    <lastmod>2020-04-19T17:02:28-07:00</lastmod>
   </url><url>
-    <loc>https://theblipbloop.github.io/projects/blog_post_0/</loc>
-    <lastmod>2016-02-10T10:00:00+00:00</lastmod>
+    <loc>https://theblipbloop.github.io/projects/super_ship_builder/</loc>
+    <lastmod>2019-09-08T17:00:07-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/projects/rfmp/</loc>
+    <lastmod>2019-07-21T16:13:47-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/projects/cookie_catcher/cookie_catcher/</loc>
+    <lastmod>2018-10-30T16:50:14-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/projects/clunk/</loc>
+    <lastmod>2018-05-16T16:43:19-07:00</lastmod>
   </url><url>
     <loc>https://theblipbloop.github.io/categories/</loc>
   </url><url>
     <loc>https://theblipbloop.github.io/contact/</loc>
   </url><url>
     <loc>https://theblipbloop.github.io/404/</loc>
-  </url><url>
-    <loc>https://theblipbloop.github.io/tags/</loc>
   </url>
 </urlset>
