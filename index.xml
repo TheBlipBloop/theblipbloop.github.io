@@ -14,7 +14,7 @@
       <pubDate>Sat, 23 Nov 2024 15:47:37 -0700</pubDate>
       
       <guid>https://theblipbloop.github.io/projects/website/</guid>
-      <description>I finally made a website.</description>
+      <description>I finally made a website!</description>
     </item>
     
     <item>
@@ -27,12 +27,48 @@
     </item>
     
     <item>
+      <title>No Cpu?</title>
+      <link>https://theblipbloop.github.io/blog/no-cpu/</link>
+      <pubDate>Mon, 23 Sep 2024 23:50:00 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/blog/no-cpu/</guid>
+      <description>With the overwhelming strength of the modern GPU, why bother using the CPU for games anyways?</description>
+    </item>
+    
+    <item>
+      <title>The Dice Looker</title>
+      <link>https://theblipbloop.github.io/projects/dice-looker/dice-looker/</link>
+      <pubDate>Sat, 26 Aug 2023 23:11:13 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/projects/dice-looker/dice-looker/</guid>
+      <description>A machine learns to look at DnD dice with the help of synthetic data!</description>
+    </item>
+    
+    <item>
+      <title>Killer Automata</title>
+      <link>https://theblipbloop.github.io/projects/killer_automata/</link>
+      <pubDate>Thu, 04 May 2023 22:59:34 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/projects/killer_automata/</guid>
+      <description>EMBRACE YOUR INNER ARCADE MACHINE. FLEE!</description>
+    </item>
+    
+    <item>
+      <title>Heirloom</title>
+      <link>https://theblipbloop.github.io/projects/heirloom/</link>
+      <pubDate>Wed, 03 May 2023 22:59:34 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/projects/heirloom/</guid>
+      <description>An open world exploration and movement game for university.</description>
+    </item>
+    
+    <item>
       <title>An Acorn Odyssey</title>
       <link>https://theblipbloop.github.io/projects/an_acorn_odyssey/</link>
       <pubDate>Tue, 07 Feb 2023 17:02:28 -0700</pubDate>
       
       <guid>https://theblipbloop.github.io/projects/an_acorn_odyssey/</guid>
-      <description>Play as an Acorn sprouting into a tree!</description>
+      <description>Play as an acorn sprouting into a tree!</description>
     </item>
     
     <item>
@@ -41,15 +77,15 @@
       <pubDate>Sun, 24 Oct 2021 17:02:28 -0700</pubDate>
       
       <guid>https://theblipbloop.github.io/projects/an_atypical_assassin/</guid>
-      <description>Play as the worlds most&amp;hellip; unique assassin!</description>
+      <description>Play as the worlds most. . . unique assassin!</description>
     </item>
     
     <item>
       <title>FEED</title>
-      <link>https://theblipbloop.github.io/projects/feed/</link>
+      <link>https://theblipbloop.github.io/projects/feed/feed/</link>
       <pubDate>Sun, 19 Apr 2020 17:02:28 -0700</pubDate>
       
-      <guid>https://theblipbloop.github.io/projects/feed/</guid>
+      <guid>https://theblipbloop.github.io/projects/feed/feed/</guid>
       <description>A goofy puzzle platformer created for Ludum Dare!</description>
     </item>
     

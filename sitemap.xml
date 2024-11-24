@@ -8,16 +8,16 @@
     <loc>https://theblipbloop.github.io/</loc>
     <lastmod>2024-11-23T15:47:37-07:00</lastmod>
   </url><url>
-    <loc>https://theblipbloop.github.io/tags/ongoing/</loc>
-    <lastmod>2024-11-23T15:47:37-07:00</lastmod>
-  </url><url>
     <loc>https://theblipbloop.github.io/projects/</loc>
     <lastmod>2024-11-23T15:47:37-07:00</lastmod>
   </url><url>
     <loc>https://theblipbloop.github.io/tags/</loc>
     <lastmod>2024-11-23T15:47:37-07:00</lastmod>
   </url><url>
-    <loc>https://theblipbloop.github.io/tags/webdev/</loc>
+    <loc>https://theblipbloop.github.io/tags/web/</loc>
+    <lastmod>2024-11-23T15:47:37-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/tags/wip/</loc>
     <lastmod>2024-11-23T15:47:37-07:00</lastmod>
   </url><url>
     <loc>https://theblipbloop.github.io/blog/</loc>
@@ -26,16 +26,46 @@
     <loc>https://theblipbloop.github.io/blog/todo/</loc>
     <lastmod>2024-11-23T12:59:58-07:00</lastmod>
   </url><url>
-    <loc>https://theblipbloop.github.io/projects/an_acorn_odyssey/</loc>
-    <lastmod>2023-02-07T17:02:28-07:00</lastmod>
+    <loc>https://theblipbloop.github.io/tags/gpu/</loc>
+    <lastmod>2024-09-23T23:50:00-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/blog/no-cpu/</loc>
+    <lastmod>2024-09-23T23:50:00-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/tags/shadertoy/</loc>
+    <lastmod>2024-09-23T23:50:00-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/tags/silly/</loc>
+    <lastmod>2024-09-23T23:50:00-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/tags/ml/</loc>
+    <lastmod>2023-08-26T23:11:13-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/projects/dice-looker/dice-looker/</loc>
+    <lastmod>2023-08-26T23:11:13-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/tags/yolo/</loc>
+    <lastmod>2023-08-26T23:11:13-07:00</lastmod>
   </url><url>
     <loc>https://theblipbloop.github.io/tags/game/</loc>
+    <lastmod>2023-05-04T22:59:34-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/projects/killer_automata/</loc>
+    <lastmod>2023-05-04T22:59:34-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/tags/special/</loc>
+    <lastmod>2023-05-04T22:59:34-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/projects/heirloom/</loc>
+    <lastmod>2023-05-03T22:59:34-07:00</lastmod>
+  </url><url>
+    <loc>https://theblipbloop.github.io/projects/an_acorn_odyssey/</loc>
     <lastmod>2023-02-07T17:02:28-07:00</lastmod>
   </url><url>
     <loc>https://theblipbloop.github.io/projects/an_atypical_assassin/</loc>
     <lastmod>2021-10-24T17:02:28-07:00</lastmod>
   </url><url>
-    <loc>https://theblipbloop.github.io/projects/feed/</loc>
+    <loc>https://theblipbloop.github.io/projects/feed/feed/</loc>
     <lastmod>2020-04-19T17:02:28-07:00</lastmod>
   </url><url>
     <loc>https://theblipbloop.github.io/projects/super_ship_builder/</loc>

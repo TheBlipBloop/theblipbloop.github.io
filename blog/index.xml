@@ -17,5 +17,14 @@
       <description>some things to do for this site</description>
     </item>
     
+    <item>
+      <title>No Cpu?</title>
+      <link>https://theblipbloop.github.io/blog/no-cpu/</link>
+      <pubDate>Mon, 23 Sep 2024 23:50:00 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/blog/no-cpu/</guid>
+      <description>With the overwhelming strength of the modern GPU, why bother using the CPU for games anyways?</description>
+    </item>
+    
   </channel>
 </rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>silly on ben</title>
+    <link>https://theblipbloop.github.io/tags/silly/</link>
+    <description>Recent content in silly on ben</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2024, Benjamin Seckeler. All rights reserved.</copyright>
+    <lastBuildDate>Mon, 23 Sep 2024 23:50:00 -0700</lastBuildDate><atom:link href="https://theblipbloop.github.io/tags/silly/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>No Cpu?</title>
+      <link>https://theblipbloop.github.io/blog/no-cpu/</link>
+      <pubDate>Mon, 23 Sep 2024 23:50:00 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/blog/no-cpu/</guid>
+      <description>With the overwhelming strength of the modern GPU, why bother using the CPU for games anyways?</description>
+    </item>
+    
+  </channel>
+</rss>

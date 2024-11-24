@@ -9,29 +9,83 @@
     <copyright>Copyright © 2024, Benjamin Seckeler. All rights reserved.</copyright>
     <lastBuildDate>Sat, 23 Nov 2024 15:47:37 -0700</lastBuildDate><atom:link href="https://theblipbloop.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ongoing</title>
-      <link>https://theblipbloop.github.io/tags/ongoing/</link>
+      <title>web</title>
+      <link>https://theblipbloop.github.io/tags/web/</link>
       <pubDate>Sat, 23 Nov 2024 15:47:37 -0700</pubDate>
       
-      <guid>https://theblipbloop.github.io/tags/ongoing/</guid>
+      <guid>https://theblipbloop.github.io/tags/web/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>webdev</title>
-      <link>https://theblipbloop.github.io/tags/webdev/</link>
+      <title>wip</title>
+      <link>https://theblipbloop.github.io/tags/wip/</link>
       <pubDate>Sat, 23 Nov 2024 15:47:37 -0700</pubDate>
       
-      <guid>https://theblipbloop.github.io/tags/webdev/</guid>
+      <guid>https://theblipbloop.github.io/tags/wip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gpu</title>
+      <link>https://theblipbloop.github.io/tags/gpu/</link>
+      <pubDate>Mon, 23 Sep 2024 23:50:00 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/tags/gpu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>shadertoy</title>
+      <link>https://theblipbloop.github.io/tags/shadertoy/</link>
+      <pubDate>Mon, 23 Sep 2024 23:50:00 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/tags/shadertoy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>silly</title>
+      <link>https://theblipbloop.github.io/tags/silly/</link>
+      <pubDate>Mon, 23 Sep 2024 23:50:00 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/tags/silly/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ml</title>
+      <link>https://theblipbloop.github.io/tags/ml/</link>
+      <pubDate>Sat, 26 Aug 2023 23:11:13 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/tags/ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>yolo</title>
+      <link>https://theblipbloop.github.io/tags/yolo/</link>
+      <pubDate>Sat, 26 Aug 2023 23:11:13 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/tags/yolo/</guid>
       <description></description>
     </item>
     
     <item>
       <title>game</title>
       <link>https://theblipbloop.github.io/tags/game/</link>
-      <pubDate>Tue, 07 Feb 2023 17:02:28 -0700</pubDate>
+      <pubDate>Thu, 04 May 2023 22:59:34 -0700</pubDate>
       
       <guid>https://theblipbloop.github.io/tags/game/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>special</title>
+      <link>https://theblipbloop.github.io/tags/special/</link>
+      <pubDate>Thu, 04 May 2023 22:59:34 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/tags/special/</guid>
       <description></description>
     </item>
     

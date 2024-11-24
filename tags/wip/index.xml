@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wip on ben</title>
+    <link>https://theblipbloop.github.io/tags/wip/</link>
+    <description>Recent content in wip on ben</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2024, Benjamin Seckeler. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 23 Nov 2024 15:47:37 -0700</lastBuildDate><atom:link href="https://theblipbloop.github.io/tags/wip/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A Website</title>
+      <link>https://theblipbloop.github.io/projects/website/</link>
+      <pubDate>Sat, 23 Nov 2024 15:47:37 -0700</pubDate>
+      
+      <guid>https://theblipbloop.github.io/projects/website/</guid>
+      <description>I finally made a website!</description>
+    </item>
+    
+  </channel>
+</rss>
