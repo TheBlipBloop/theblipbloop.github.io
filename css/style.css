@@ -16,12 +16,15 @@
 	--content-padding-width: 5%;
 	--outer-container-margin: 32px;
 	--post_entry_padding: 24px;
+	--font-header: 'Courier New', Courier, monospace;
+	--font-body: 'Courier New', Courier, monospace;
+	/* --font-body: Open Sans;  */
 }
 
 
 
 h1 {
-	font-family: 'Courier New', Courier, monospace; 
+	font-family: var(--font-header); 
 	/* font-size: 5vw; */
 	font-size: var(--font-size-h1);
 	font-weight: bold;
@@ -29,14 +32,14 @@ h1 {
 }
 
 h2 {
-	font-family: 'Courier New', Courier, monospace;
+	font-family: var(--font-header);
 	font-weight: bold;
 	font-size: var(--font-size-h2);
 	padding: 8px;
 }
 
 h3 {
-	font-family: 'Courier New', Courier, monospace;
+	font-family: var(--font-header);
 	font-weight: normal;
 	font-size: var(--font-size-h3);
 	padding: 8px;
@@ -44,16 +47,21 @@ h3 {
 
 p
 {
-	font-family: 'Courier New', Courier;
+	/* font-family: 'Courier New', Courier; */
+	/* font-family: Verdana,Geneva,sans-serif;  */
+	font-family: var(--font-body);
 	padding: 8px;
 	line-height: 1.4;
 	word-wrap: break-word;
 	font-size: var(--font-size-normal);
+
 }
 
 li
 {
+	font-family: var(--font-body);
 	font-size: var(--font-size-normal);
+	line-height: 1.4;
 }
 
 body
