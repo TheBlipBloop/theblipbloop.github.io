@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>shadertoy on ben</title>
-    <link>https://theblipbloop.github.io/tags/shadertoy/</link>
+    <link>/tags/shadertoy/</link>
     <description>Recent content in shadertoy on ben</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2024, Benjamin Seckeler. All rights reserved.</copyright>
-    <lastBuildDate>Mon, 23 Sep 2024 23:50:00 -0700</lastBuildDate><atom:link href="https://theblipbloop.github.io/tags/shadertoy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Sep 2024 23:50:00 -0700</lastBuildDate><atom:link href="/tags/shadertoy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>No Cpu?</title>
-      <link>https://theblipbloop.github.io/blog/no-cpu/</link>
+      <link>/blog/no-cpu/</link>
       <pubDate>Mon, 23 Sep 2024 23:50:00 -0700</pubDate>
       
-      <guid>https://theblipbloop.github.io/blog/no-cpu/</guid>
+      <guid>/blog/no-cpu/</guid>
       <description>With the overwhelming strength of the modern GPU, why bother using the CPU for games anyways?</description>
     </item>
     
