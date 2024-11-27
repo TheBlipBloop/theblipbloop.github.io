@@ -12,13 +12,29 @@
 	--font-size-h2: 20px;
 	--font-size-h3: 20px;
 	--font-size-normal: 18px;
-	--profile-shape: circle(45%);
+	--profile-shape: circle(40%);
 	--content-padding-width: 5%;
 	--outer-container-margin: 42px;
 	--post_entry_padding: 24px;
 	--font-header: 'Courier New', Courier, monospace;
 	--font-body: 'Courier New', Courier, monospace;
-	/* --font-body: Open Sans;  */
+
+	/* --color-header: #E8998D;
+	--color-header-text: black; 
+	--color-footer: black; 
+	--color-text: black; 
+	--color-article: #FBF7F4;
+	--color-body: #EED2CC;
+	--color-background: #6C9A8B;  */
+
+
+	--color-header: antiquewhite;
+	--color-header-text: black; 
+	--color-footer: black; 
+	--color-text: black; 
+	--color-article: white;
+	--color-body: rgb(255, 248, 239);
+	--color-background: wheat;
 }
 
 
@@ -93,7 +109,7 @@ header
 	text-decoration: none;
 
 	font-family: 'Courier New', Courier, monospace;
-	background-color: antiquewhite;
+	background-color: var(--color-header);
 	top: 0;	
 
 	display:flex;
@@ -101,8 +117,10 @@ header
 	justify-content:space-between;
 	/* margin-inline-start:auto; */
 	/* margin-inline-end:auto; */
-	padding-left:5vw;
-	padding-right:5vw;
+	padding-left:8vw;
+	padding-right:8vw;
+	margin-right: auto;
+	margin-left: auto;
 
 	/* max-height: 40px; */
 	/* border: 2px solid black; */
@@ -112,11 +130,9 @@ header
 footer
 {
 	font-family: 'Courier New', Courier, monospace;
-	background-color: rgb(0, 0, 0);
+	background-color: var(--color-footer);
 	color: aliceblue;
 	text-align: center;
-	/* max-height: 110px; */
-	/* align-self: stretch; */
 }
 
 #footer
@@ -160,7 +176,7 @@ a:link, a:visited
 	word-break: keep-all;
 	overflow-x: auto;
 	white-space: nowrap;
-	color: black;
+	color: var(--color-header-text);
 	margin: 24px;
 	margin-bottom: 4px;
 	margin-top: 4px;
@@ -174,11 +190,12 @@ a:link, a:visited
 	margin-inline-start: 0.25vw;
 	margin-inline-end: 0.25vw;
 	display: flexbox;
+	color: var(--color-header-text);
 }
 
 .menu_link
 {
-	color: black;
+	color: var(--color-header-text);
 	transition: 0.1s;
 }
 
@@ -228,8 +245,8 @@ a:link, a:visited
 	width: fit-content;
 	margin: auto;
 	clip-path: var(--profile-shape); 
-	background: antiquewhite;
-	border: 3vw solid antiquewhite;
+	background: var(--color-header);
+	border: 3vw solid var(--color-header);
 }
 
 #profile_border_2
@@ -272,7 +289,7 @@ a:link, a:visited
 
 .post_entry
 {
-	background-color: white;
+	background-color: var(--color-article);
 	padding: (--post_entry_padding);
 	margin-top: 24px;
 	margin-bottom: 24px;
@@ -306,7 +323,7 @@ a:link, a:visited
 	border: 2px solid black;
 	margin: var(--outer-container-margin);
 	/* padding: 32px; */
-	background: rgb(255, 248, 239);
+	background: var(--color-body);
 	border-radius: 2px;
 
 	/* 
@@ -324,7 +341,7 @@ a:link, a:visited
 
 body
 {
-	background-color: wheat;
+	background-color: var(--color-background);
 }
 
 .single_body
@@ -334,20 +351,14 @@ body
 }
 
 
-@media only screen and (max-width: 620px) {
-	:root
-	{
-		--font-size-h1: 40px;
-		--font-size-h2: 18px;
-		--font-size-h3: 18px;
-		--font-size-normal: 14px;
-		--profile-shape: circle(45%);
-		--show-home-text: false;
-		--content-padding-width: 0%;
-		--outer-container-margin: 16px;
-		--post_entry_padding: 4px;
-	}
+img:not(#profile) {
+	width: 40%;
+	border: 2px solid black;
+	border-radius: 12px;
+}
 
+@media only screen and (max-width: 620px) {
+	
 	a.header_home_text:link, a.header_home_text:visited
 	{
 		display: none;
@@ -362,4 +373,24 @@ body
 		padding-left: 0x;
 		right:16px;
 	}
+
+	img:not(#profile) {
+		width: 100%;
+		border: 2px solid black;
+		border-radius: 12px;
+	}
+
+	:root
+	{
+		--font-size-h1: 40px;
+		--font-size-h2: 18px;
+		--font-size-h3: 18px;
+		--font-size-normal: 14px;
+		--profile-shape: circle(40%;
+		--show-home-text: false;
+		--content-padding-width: 0%;
+		--outer-container-margin: 16px;
+		--post_entry_padding: 4px;
+	}
+	/* somethings broken here TODO FIXME */
 }

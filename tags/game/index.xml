@@ -10,10 +10,10 @@
     <lastBuildDate>Thu, 04 May 2023 22:59:34 -0700</lastBuildDate><atom:link href="/tags/game/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Killer Automata</title>
-      <link>/projects/killer_automata/</link>
+      <link>/projects/killer_automata/killer_automata/</link>
       <pubDate>Thu, 04 May 2023 22:59:34 -0700</pubDate>
       
-      <guid>/projects/killer_automata/</guid>
+      <guid>/projects/killer_automata/killer_automata/</guid>
       <description>EMBRACE YOUR INNER ARCADE MACHINE. FLEE!</description>
     </item>
     
@@ -23,7 +23,7 @@
       <pubDate>Wed, 03 May 2023 22:59:34 -0700</pubDate>
       
       <guid>/projects/heirloom/</guid>
-      <description>An open world exploration and movement game for university.</description>
+      <description>An open world exploration game created with a small group for University.</description>
     </item>
     
     <item>
@@ -55,10 +55,10 @@
     
     <item>
       <title>Super Ship Builder</title>
-      <link>/projects/super_ship_builder/</link>
+      <link>/projects/super_ship_builder/super_ship_builder/</link>
       <pubDate>Sun, 08 Sep 2019 17:00:07 -0700</pubDate>
       
-      <guid>/projects/super_ship_builder/</guid>
+      <guid>/projects/super_ship_builder/super_ship_builder/</guid>
       <description>You ever want to build a space ship? In space? As a ragdoll?</description>
     </item>
     
@@ -82,11 +82,11 @@
     
     <item>
       <title>CLUNK</title>
-      <link>/projects/clunk/</link>
+      <link>/projects/clunk/clunk/</link>
       <pubDate>Wed, 16 May 2018 16:43:19 -0700</pubDate>
       
-      <guid>/projects/clunk/</guid>
-      <description>A 2D endless wave shooter with base building!</description>
+      <guid>/projects/clunk/clunk/</guid>
+      <description>A 2D multiplayer wave shooter with base building!</description>
     </item>
     
   </channel>
