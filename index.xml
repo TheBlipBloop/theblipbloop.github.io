@@ -27,24 +27,6 @@
     </item>
     
     <item>
-      <title>No Cpu?</title>
-      <link>/blog/no-cpu/</link>
-      <pubDate>Mon, 23 Sep 2024 23:50:00 -0700</pubDate>
-      
-      <guid>/blog/no-cpu/</guid>
-      <description>With the overwhelming strength of the modern GPU, why bother using the CPU for games anyways?</description>
-    </item>
-    
-    <item>
-      <title>The Dice Looker</title>
-      <link>/projects/dice-looker/dice-looker/</link>
-      <pubDate>Sat, 26 Aug 2023 23:11:13 -0700</pubDate>
-      
-      <guid>/projects/dice-looker/dice-looker/</guid>
-      <description>A machine learns to look at DnD dice with the help of synthetic data!</description>
-    </item>
-    
-    <item>
       <title>Killer Automata</title>
       <link>/projects/killer_automata/killer_automata/</link>
       <pubDate>Thu, 04 May 2023 22:59:34 -0700</pubDate>
@@ -55,28 +37,28 @@
     
     <item>
       <title>Heirloom</title>
-      <link>/projects/heirloom/</link>
+      <link>/projects/heirloom/heirloom/</link>
       <pubDate>Wed, 03 May 2023 22:59:34 -0700</pubDate>
       
-      <guid>/projects/heirloom/</guid>
+      <guid>/projects/heirloom/heirloom/</guid>
       <description>An open world exploration game created with a small group for University.</description>
     </item>
     
     <item>
       <title>An Acorn Odyssey</title>
-      <link>/projects/an_acorn_odyssey/</link>
+      <link>/projects/an_acorn_odyssey/an_acorn_odyssey/</link>
       <pubDate>Tue, 07 Feb 2023 17:02:28 -0700</pubDate>
       
-      <guid>/projects/an_acorn_odyssey/</guid>
+      <guid>/projects/an_acorn_odyssey/an_acorn_odyssey/</guid>
       <description>Play as an acorn sprouting into a tree!</description>
     </item>
     
     <item>
       <title>An Atypical Assassin</title>
-      <link>/projects/an_atypical_assassin/</link>
+      <link>/projects/atypical_assassin/atypical_assassin/</link>
       <pubDate>Sun, 24 Oct 2021 17:02:28 -0700</pubDate>
       
-      <guid>/projects/an_atypical_assassin/</guid>
+      <guid>/projects/atypical_assassin/atypical_assassin/</guid>
       <description>Play as the worlds most. . . unique assassin!</description>
     </item>
     

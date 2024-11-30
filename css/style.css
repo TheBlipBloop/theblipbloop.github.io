@@ -12,9 +12,9 @@
 	--font-size-h2: 20px;
 	--font-size-h3: 20px;
 	--font-size-normal: 18px;
-	--profile-shape: circle(40%);
+	--profile-shape: rect(20%);
 	--content-padding-width: 5%;
-	--outer-container-margin: 42px;
+	--outer-container-margin: 24px;
 	--post_entry_padding: 24px;
 	--font-header: 'Courier New', Courier, monospace;
 	--font-body: 'Courier New', Courier, monospace;
@@ -97,7 +97,7 @@ body
 	margin: auto;
 	/* text-wrap:pretty; */
 	flex: 1;
-	padding: 48px;
+	padding: 24px;
 	/* max-width: ; */
 	max-width: 80%;
 	height: 100%;
@@ -124,7 +124,7 @@ header
 
 	/* max-height: 40px; */
 	/* border: 2px solid black; */
-	border-bottom: 2px solid black;
+	border-bottom: 1px solid black;
 }
 
 footer
@@ -220,69 +220,31 @@ a:link, a:visited
 
 /* Profile Configuration */
 
-
-#profile_border_0
-{
-	width: fit-content;
-	margin: auto;
-	clip-path: var(--profile-shape); 
-	background: black;
-	border: 2px solid black;
-	transition: 0.1s;
-	margin-bottom: 24px;
-} 
-
-#profile_border_0:hover
-{
-	transition: 0.2s;
-	transform: scale(105%);
-	background: rgb(0, 0, 0);
-	border: 2px solid black;
-}
-
-#profile_border_1
-{
-	width: fit-content;
-	margin: auto;
-	clip-path: var(--profile-shape); 
-	background: var(--color-header);
-	border: 3vw solid var(--color-header);
-}
-
-#profile_border_2
-{
-	width: fit-content;
-	margin: auto;
-	clip-path: var(--profile-shape);
-	background: black;
-	border: 2px solid black;
-}
-
 #profile
 {
 	clip-path: var(--profile-shape);
 	display: block; 
-	margin-left: auto; 
-	margin-right: auto;
-	height: 25vw;
-	width: 25vw;
-	/* border: 10px solid black; */
-	transition: 0.5s;
+	height: 15vw;
+	width: 15vw;
+	border: 1px solid black;
+	padding: 8px;
+	position: absolute;
+	right: 200px;
 }
 
 #profile_div
 {
-	text-align: center;
+	/* text-align: center; */
 	margin-right: auto;
 	margin-left: auto;
-	width: 80%;
+	/* width: 80%; */
 	/* padding: 24px; */
 	gap: 24px;
 }
 
 #profile_text
 {
-	display: block;
+	display: block; 
 }
 
 /* Post Configuration */
@@ -296,18 +258,17 @@ a:link, a:visited
 	position: relative;
 	display: block;
 	
-	border: 2px solid black;
-	border-radius: 2px;
+	border: 1px solid black;
 }
 
 .post_entry:hover
 {
 	transition: 0.1s;
-	transform: scale(102%);
+	transform: scale(101%);
 }
 .post_entry:active
 {
-	transition: 0.1s;
+	transition: 0.05s;
 	transform: scale(98%);
 }
 
@@ -320,11 +281,13 @@ a:link, a:visited
 
 #outer_container
 {
-	border: 2px solid black;
+	border: 1px solid black;
 	margin: var(--outer-container-margin);
+	/* margin-right: 10vw; */
+	/* margin-left: 10vw; */
 	/* padding: 32px; */
 	background: var(--color-body);
-	border-radius: 2px;
+	border-radius: 1px;
 
 	/* 
 	background-color: rgb(255, 248, 239);
@@ -353,8 +316,8 @@ body
 
 img:not(#profile) {
 	width: 40%;
-	border: 2px solid black;
-	border-radius: 12px;
+	border: 2px solid black; 
+	margin: 12px;
 }
 
 @media only screen and (max-width: 620px) {
@@ -376,8 +339,6 @@ img:not(#profile) {
 
 	img:not(#profile) {
 		width: 100%;
-		border: 2px solid black;
-		border-radius: 12px;
 	}
 
 	:root
@@ -386,10 +347,10 @@ img:not(#profile) {
 		--font-size-h2: 18px;
 		--font-size-h3: 18px;
 		--font-size-normal: 14px;
-		--profile-shape: circle(40%;
+		--profile-shape: circle(40%);
 		--show-home-text: false;
 		--content-padding-width: 0%;
-		--outer-container-margin: 16px;
+		--outer-container-margin: 8px;
 		--post_entry_padding: 4px;
 	}
 	/* somethings broken here TODO FIXME */
