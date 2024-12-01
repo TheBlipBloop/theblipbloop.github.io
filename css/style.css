@@ -314,10 +314,34 @@ body
 }
 
 
-img:not(#profile) {
+img:not(#profile, .mosiac_img) {
 	width: 40%;
 	border: 2px solid black; 
 	margin: 12px;
+}
+
+.mosiac_div
+{
+  display: grid;
+  grid-template-columns: repeat(9, 11%);
+  /* grid-template-columns: repeat(9, 11%); */
+  grid-auto-rows: auto;  
+  padding: 16px;
+  margin: 16px;
+  gap: 0.25rem;
+  padding-right: 32px;
+  padding-left: 32px;
+  /* border: 1px solid black; */
+  justify-content: center;
+  /* margin-top: 1.5vw; */
+  /* margin-bottom: 1.5vw; */
+}
+
+.mosiac_img
+{ 
+	width: 100%;
+	height: auto;
+	border-radius: 4px;
 }
 
 @media only screen and (max-width: 620px) {
@@ -353,5 +377,22 @@ img:not(#profile) {
 		--outer-container-margin: 8px;
 		--post_entry_padding: 4px;
 	}
-	/* somethings broken here TODO FIXME */
+
+
+	.mosiac_div
+	{
+		display: grid;
+		grid-template-columns: repeat(3, 30%);
+		grid-auto-rows: auto;  
+		padding: 16px;
+		padding-right: 0px;
+		padding-left: 0px;
+	}
+
+	#content
+	{
+		width: 100%;
+		padding: 32px;
+		max-width: 85%;
+	}
 }
