@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+
+<title>GPU Based Game Framework | ben</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
+</head>
+	
+<div id="outer_container">
+
+
+<header id="header">
+	<p> <a class="header_home_text" href="/">ben</a> </p>
+	<div id="div_top_links">
+
+	<ul id="menu">
+		
+		
+		<li class="menu_item"><p><a class="menu_link" href="/">home</a></p></li>
+
+		
+			<li class="menu_item"><p><a class="menu_link" href="/blog/">blog </a></p></li>
+		
+			<li class="menu_item"><p><a class="menu_link" href="/projects/">projects </a></p></li>
+		
+	</ul>
+	</div>
+</header>
+
+
+<div id = "content">
+<body>
+
+<div class="single_body"> 
+	
+	<h1> GPU Based Game Framework </h1>
+	<h3> 09 October 2024 </h3>
+	
+	<p><p>I&rsquo;ve been working on making games that are contained entirely in the contents of a <strong>fragment shader</strong>. I currently have a semi-scalable framework for computing and rendering game state using only the pixels of a single screen buffer. All calculations are performed on the GPU. All game logic is written in <strong>GLSL</strong>.</p>
+<p>This framework currently supports ~10K mutable variables @ ~60 FPS running on an RTX 3090. Clearly ground-breaking performance.</p>
+<p>Milestones:</p>
+<ul>
+<li>
+<p><input checked="" disabled="" type="checkbox"> Proof of concept demo scenes to verify this is possible.</p>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> Basic framework for variable decleration and mutation.</p>
+</li>
+<li>
+<p><input checked="" disabled="" type="checkbox"> Simple demo with player driven motion &amp; collision.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> More portable variable encoding system with support for additional variable types.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Custom pre-processor to allow for more convienent variable declerations.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Custom shader -&gt; processing -&gt; application -&gt; pipeline to get away from some of the limitations of WebGL &amp; ShaderToy.</p>
+</li>
+<li>
+<p><input disabled="" type="checkbox"> Complete SineWaveSurfers (the game for which this framework is being built).</p>
+</li>
+</ul>
+
+<hr style="margin-top: 2vw; margin-bottom: 2vw;">
+<p>A simple demo with floor collision &amp; semi-implicit euler integration:</p>
+<p><img src="/projects/no_cpu/demo_0.gif" alt="A video showing off simple floor collision and semi-implicit euler integration."></p>
+
+<hr style="margin-top: 2vw; margin-bottom: 2vw;">
+<p>For the record: I&rsquo;m not doing this because I think it&rsquo;s a good idea! I&rsquo;m doing it because it&rsquo;s difficult, funny, and no one else has.</p>
+ </p>
+</div>
+
+</body>
+</div>
+
+
+<footer id="footer">
+<p>Copyright © 2024, Benjamin Seckeler. All rights reserved.</p>
+</footer>
+
+
+
+</div>
+
+</html>

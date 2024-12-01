@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>glsl on ben</title>
+    <link>/tags/glsl/</link>
+    <description>Recent content in glsl on ben</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2024, Benjamin Seckeler. All rights reserved.</copyright>
+    <lastBuildDate>Wed, 09 Oct 2024 15:47:37 -0700</lastBuildDate><atom:link href="/tags/glsl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPU Based Game Framework</title>
+      <link>/projects/no_cpu/no_cpu/</link>
+      <pubDate>Wed, 09 Oct 2024 15:47:37 -0700</pubDate>
+      
+      <guid>/projects/no_cpu/no_cpu/</guid>
+      <description>A game framework running solely on the GPU. For better or worse (mostly worse).</description>
+    </item>
+    
+  </channel>
+</rss>

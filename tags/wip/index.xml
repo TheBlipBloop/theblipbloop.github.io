@@ -17,5 +17,23 @@
       <description>I finally made a website!</description>
     </item>
     
+    <item>
+      <title>COZY CABIN</title>
+      <link>/projects/frostbright/frostbright/</link>
+      <pubDate>Tue, 12 Nov 2024 22:41:41 -0700</pubDate>
+      
+      <guid>/projects/frostbright/frostbright/</guid>
+      <description>A prototype of a prototype of a game that may or may not be.</description>
+    </item>
+    
+    <item>
+      <title>GPU Based Game Framework</title>
+      <link>/projects/no_cpu/no_cpu/</link>
+      <pubDate>Wed, 09 Oct 2024 15:47:37 -0700</pubDate>
+      
+      <guid>/projects/no_cpu/no_cpu/</guid>
+      <description>A game framework running solely on the GPU. For better or worse (mostly worse).</description>
+    </item>
+    
   </channel>
 </rss>
