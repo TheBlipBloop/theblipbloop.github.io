@@ -6,14 +6,14 @@
     <description>Recent content in projects on ben</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2024, Benjamin Seckeler. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 23 Nov 2024 15:47:37 -0700</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Copyright © 2025, Benjamin Seckeler. All rights reserved.</copyright>
+    <lastBuildDate>Sat, 15 Feb 2025 09:47:37 -0700</lastBuildDate><atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Website</title>
-      <link>/projects/website/</link>
-      <pubDate>Sat, 23 Nov 2024 15:47:37 -0700</pubDate>
+      <link>/projects/website/website/</link>
+      <pubDate>Sat, 15 Feb 2025 09:47:37 -0700</pubDate>
       
-      <guid>/projects/website/</guid>
+      <guid>/projects/website/website/</guid>
       <description>I finally made a website!</description>
     </item>
     
@@ -33,6 +33,15 @@
       
       <guid>/projects/no_cpu/no_cpu/</guid>
       <description>A game framework running solely on the GPU. For better or worse (mostly worse).</description>
+    </item>
+    
+    <item>
+      <title>Fragment Shader Art</title>
+      <link>/projects/shader_art/shader_art/</link>
+      <pubDate>Thu, 27 Jun 2024 15:38:39 -0700</pubDate>
+      
+      <guid>/projects/shader_art/shader_art/</guid>
+      <description>How I became a sleepless rambling GLSL addict.</description>
     </item>
     
     <item>
@@ -91,10 +100,10 @@
     
     <item>
       <title>Ravenfield Multiplayer Project</title>
-      <link>/projects/rfmp/</link>
+      <link>/projects/rfmp/rfmp/</link>
       <pubDate>Sun, 21 Jul 2019 16:13:47 -0700</pubDate>
       
-      <guid>/projects/rfmp/</guid>
+      <guid>/projects/rfmp/rfmp/</guid>
       <description>A multiplayer remake of a popular indie game. Released on Steam.</description>
     </item>
     

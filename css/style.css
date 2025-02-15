@@ -1,5 +1,6 @@
 * { 
     margin: 0;
+	text-rendering: optimizeLegibility;
     /* padding: 0; */
     /* box-sizing: border-box; */
 	/* text-overflow: wrap; */
@@ -8,16 +9,19 @@
 
 :root
 {
-	--font-size-h1: 64px;
+	--font-size-h1: 48px;
 	--font-size-h2: 20px;
-	--font-size-h3: 20px;
+	--font-size-h3: 18px;
 	--font-size-normal: 18px;
 	--profile-shape: rect(20%);
 	--content-padding-width: 5%;
 	--outer-container-margin: 24px;
 	--post_entry_padding: 24px;
-	--font-header: 'Courier New', Courier, monospace;
-	--font-body: 'Courier New', Courier, monospace;
+	/* --font-header: 'Fira Code', Monaco, Consolas, Ubuntu Mono, monospace; */
+	--font-header:  Courier, monospace;
+	--font-body:  Monaco, Consolas, Ubuntu Mono, monospace;
+
+	/* --font-body: Courier, monospace; */
 
 	/* --color-header: #E8998D;
 	--color-header-text: black; 
@@ -41,36 +45,48 @@
 
 h1 {
 	font-family: var(--font-header); 
-	/* font-size: 5vw; */
 	font-size: var(--font-size-h1);
 	font-weight: bold;
-	padding: 8px;
+	line-height: 1.5;
 }
 
 h2 {
 	font-family: var(--font-header);
-	font-weight: bold;
+	font-weight: 600;
 	font-size: var(--font-size-h2);
-	padding: 8px;
+	line-height: 1.5;
 }
 
 h3 {
 	font-family: var(--font-header);
+	font-weight: 500;
+	font-size: var(--font-size-h3);
+	line-height: 1.5;
+}
+
+h4 {
+	font-family: var(--font-header);
 	font-weight: normal;
 	font-size: var(--font-size-h3);
-	padding: 8px;
+	line-height: 1.5;
+}
+
+h5 
+{
+	font-family: var(--font-header);
+	font-weight: normal;
+	font-size: var(--font-size-h3);
+	line-height: 1.5;
 }
 
 p
 {
-	/* font-family: 'Courier New', Courier; */
-	/* font-family: Verdana,Geneva,sans-serif;  */
 	font-family: var(--font-body);
-	padding: 8px;
-	line-height: 1.4;
+	padding: 0.5rem 0;
+
+	line-height: 1.3;
 	word-wrap: break-word;
 	font-size: var(--font-size-normal);
-
 }
 
 li
@@ -80,16 +96,6 @@ li
 	line-height: 1.4;
 }
 
-body
-{
-	font-family: 'Courier New', Courier, monospace;
-	/* margin-bottom: 24px; */
-	flex-direction: column;
-	background-color: rgb(255, 248, 239);
-	/* min-height: 100vh; */
-	
-}
-
 #content
 {
 	/* vertical-align: middle; */
@@ -97,9 +103,11 @@ body
 	margin: auto;
 	/* text-wrap:pretty; */
 	flex: 1;
-	padding: 24px;
+	padding: 48px;
+	padding-top: 24px;
+	padding-bottom: 24px;
 	/* max-width: ; */
-	max-width: 80%;
+	max-width: 100%;
 	height: 100%;
 }
 
@@ -117,8 +125,8 @@ header
 	justify-content:space-between;
 	/* margin-inline-start:auto; */
 	/* margin-inline-end:auto; */
-	padding-left:8vw;
-	padding-right:8vw;
+	/* padding-left:1vw; */
+	padding-right:24px;
 	margin-right: auto;
 	margin-left: auto;
 
@@ -162,11 +170,15 @@ a:link, a:visited
 	font-weight: bold;
 }
 
-/* #div_top_links */
-/* { */
-	/* display: inline; */
-	/* vertical-align: center; */
-/* } */
+#div_top_links
+{
+	display: flex;
+	vertical-align: center;
+	/* justify-content: right; */
+	/* align-items: center; */
+	/* align-self: center; */
+	/* align-content: center; */
+}
 
 #menu
 {
@@ -191,6 +203,7 @@ a:link, a:visited
 	margin-inline-end: 0.25vw;
 	display: flexbox;
 	color: var(--color-header-text);
+	padding: 8px;
 }
 
 .menu_link
@@ -249,22 +262,32 @@ a:link, a:visited
 
 /* Post Configuration */
 
+.post_container
+{
+	display: grid;
+    grid-template-columns: repeat(2, 50%);
+	column-gap: 16px;
+	row-gap: 16px;
+	justify-content:space-evenly;
+	padding: 32px;
+}
+
 .post_entry
 {
 	background-color: var(--color-article);
 	padding: (--post_entry_padding);
-	margin-top: 24px;
-	margin-bottom: 24px;
+	/* margin-top: 24px; */
+	/* margin-bottom: 24px; */
 	position: relative;
 	display: block;
-	
+	padding: 16px;
 	border: 1px solid black;
 }
 
 .post_entry:hover
 {
 	transition: 0.1s;
-	transform: scale(101%);
+	transform: scale(103%);
 }
 .post_entry:active
 {
@@ -283,12 +306,14 @@ a:link, a:visited
 {
 	border: 1px solid black;
 	margin: var(--outer-container-margin);
-	/* margin-right: 10vw; */
-	/* margin-left: 10vw; */
+	/* margin-right: 18vw; */
+	/* margin-left: 18vw; */
 	/* padding: 32px; */
 	background: var(--color-body);
 	border-radius: 1px;
-
+	width: 55%;
+	/* max-width: 1000px; */
+	
 	/* 
 	background-color: rgb(255, 248, 239);
 	opacity: 1.0;
@@ -305,6 +330,11 @@ a:link, a:visited
 body
 {
 	background-color: var(--color-background);
+	/* font-family: 'Courier New', Courier, monospace; */
+	justify-content: center;
+	flex-direction: row;
+	display: flex;
+	align-items: flex-start;	
 }
 
 .single_body
@@ -314,11 +344,30 @@ body
 }
 
 
-img:not(#profile, .mosaic_img) {
+img:not(#profile, .mosaic_img, .post_entry_banner) {
 	width: 40%;
 	border: 2px solid black; 
 	margin: 12px;
 }
+
+.post_entry_banner
+{
+	object-fit: cover;
+	display: block;
+	width: 100%;
+	height: 100px;
+	border-radius: 4px;
+	margin-bottom: 8px;
+	border: 1px solid black; 
+}
+
+/* .post_entry:hover .post_entry_banner
+{
+	height: 220px;
+	transition: 0.1s;
+	vertical-align:middle;
+	align-self: center;
+} */
 
 .mosaic_div
 {
@@ -340,31 +389,50 @@ img:not(#profile, .mosaic_img) {
 	width: 100%;
 	height: auto;
 	border: 2px solid black;
-	border-radius: 8px;
+	border-radius: 4px;
 	transition: 0.1s;
 }
 .mosaic_img:hover
 { 
 	transition: 0.1s;
 	box-shadow: 0px 0px 8px;
-    transform: scale(1.25);
+    transform: scale(1.85);
 }
 
-@media only screen and (max-width: 620px) {
+#header
+{
+	justify-content: right;
+	padding-right: 40px;
+}
+
+hr.divider_line
+{
+	margin-top: 1vw; 
+	margin-bottom: 1vw;
+	border-style: dashed;
+}
+
+video
+{
+	border: 2px solid black;
+}
+
+@media only screen and (max-width: 920px) {
 	
-	a.header_home_text:link, a.header_home_text:visited
+	/* a.header_home_text:link, a.header_home_text:visited
 	{
 		display: none;
 		padding: -8px;
 		margin: 0;
-	}
+	} */
 
 	#header
 	{
 		justify-content: center;
 		/* pos */
-		padding-left: 0x;
-		right:16px;
+		padding-left: 0px;
+		padding-right: 0px;
+		/* right:16px; */
 	}
 
 	img:not(#profile) {
@@ -375,7 +443,7 @@ img:not(#profile, .mosaic_img) {
 	{
 		--font-size-h1: 40px;
 		--font-size-h2: 18px;
-		--font-size-h3: 18px;
+		--font-size-h3: 14px;
 		--font-size-normal: 14px;
 		--profile-shape: circle(40%);
 		--show-home-text: false;
@@ -397,8 +465,23 @@ img:not(#profile, .mosaic_img) {
 
 	#content
 	{
-		width: 100%;
-		padding: 32px;
-		max-width: 85%;
+		/* width: 100%; */
+		padding: 16px;
+		/* max-width: 85%; */
+	}
+
+	.mosaic_img:hover
+	{ 
+		transform: scale(1.80);
+	}
+
+	#outer_container
+	{
+		width: 90%;
+	}
+
+	.post_container
+	{
+		grid-template-columns: repeat(1, 100%);
 	}
 }

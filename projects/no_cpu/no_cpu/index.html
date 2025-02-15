@@ -23,36 +23,24 @@ if (!doNotTrack) {
 }
 </script>
 
-
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'G-V3XX4S01Y5', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
 </head>
 	
 <div id="outer_container">
 
 
 <header id="header">
-	<p> <a class="header_home_text" href="/">ben</a> </p>
+	
 	<div id="div_top_links">
 
 	<ul id="menu">
 		
 		
-		<li class="menu_item"><p><a class="menu_link" href="/">home</a></p></li>
+		<li class="menu_item"><a class="menu_link" href="/">home</a></li>
 
 		
-			<li class="menu_item"><p><a class="menu_link" href="/blog/">blog </a></p></li>
+			<li class="menu_item"><a class="menu_link" href="/blog/">blog </a></li>
 		
-			<li class="menu_item"><p><a class="menu_link" href="/projects/">projects </a></p></li>
+			<li class="menu_item"><a class="menu_link" href="/projects/">projects </a></li>
 		
 	</ul>
 	</div>
@@ -66,8 +54,8 @@ if (!doNotTrack) {
 	
 	<h1> GPU Based Game Framework </h1>
 	<h3> 09 October 2024 </h3>
-	
-	<p><p>I&rsquo;ve been working on making games that are contained entirely in the contents of a <strong>fragment shader</strong>. I currently have a semi-scalable framework for computing and rendering game state using only the pixels of a single screen buffer. All calculations are performed on the GPU. All game logic is written in <strong>GLSL</strong>.</p>
+	<hr class="divider_line">
+	<p>I&rsquo;ve been working on making games that are contained entirely in the contents of a <strong>fragment shader</strong>. I currently have a semi-scalable framework for computing and rendering game state using only the pixels of a single screen buffer. All calculations are performed on the GPU. All game logic is written in <strong>GLSL</strong>.</p>
 <p>This framework currently supports ~10K mutable variables @ ~40 FPS running on an RTX 3090. Truely ground-breaking performance.</p>
 <p>Milestones:</p>
 <ul>
@@ -96,14 +84,12 @@ if (!doNotTrack) {
 <p><input disabled="" type="checkbox"> Clever data embeddings.</p>
 </li>
 </ul>
-
-<hr style="margin-top: 2vw; margin-bottom: 2vw;">
+<hr class="divider_line" style="margin-top: 2rem; margin-bottom: 2rem;">
 <p>A simple demo with floor collision &amp; semi-implicit euler integration:</p>
 <p><img src="/projects/no_cpu/demo_0.gif" alt="A video showing off simple floor collision and semi-implicit euler integration."></p>
-
-<hr style="margin-top: 2vw; margin-bottom: 2vw;">
+<hr class="divider_line" style="margin-top: 2rem; margin-bottom: 2rem;">
 <p>For the record: I&rsquo;m not doing this because I think it&rsquo;s a good idea! I&rsquo;m doing it because it&rsquo;s difficult, funny, and no one else has.</p>
- </p>
+
 </div>
 
 </body>
@@ -111,7 +97,7 @@ if (!doNotTrack) {
 
 
 <footer id="footer">
-<p>Copyright © 2024, Benjamin Seckeler. All rights reserved.</p>
+<p>Copyright © 2025, Benjamin Seckeler. All rights reserved.</p>
 </footer>
 
 
