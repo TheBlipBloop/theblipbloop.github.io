@@ -50,7 +50,7 @@
       <pubDate>Thu, 27 Jun 2024 15:38:39 -0700</pubDate>
       
       <guid>/projects/shader_art/shader_art/</guid>
-      <description>How I became a sleepless rambling GLSL addict.</description>
+      <description>How I became a rambling GLSL addict.</description>
     </item>
     
     <item>
@@ -132,6 +132,15 @@
       
       <guid>/projects/clunk/clunk/</guid>
       <description>A 2D multiplayer wave shooter with base building!</description>
+    </item>
+    
+    <item>
+      <title>Ravenfield Mods</title>
+      <link>/projects/rf_mods/rf_mods/</link>
+      <pubDate>Wed, 20 Sep 2017 12:13:47 -0700</pubDate>
+      
+      <guid>/projects/rf_mods/rf_mods/</guid>
+      <description>Reverse engineering DLLs to mod an indie game.</description>
     </item>
     
     <item>
