@@ -345,9 +345,12 @@ body
 
 
 img:not(#profile, .mosaic_img, .post_entry_banner) {
-	width: 40%;
+	width: 100%;
 	border: 2px solid black; 
-	margin: 12px;
+	/* margin: 12px; */
+	margin-top: 16px;
+	margin-bottom: 16px;
+	display: block;
 }
 
 .post_entry_banner
