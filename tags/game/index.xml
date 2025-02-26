@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>game on ben</title>
+    <title>game on Ben Seckeler - Art &amp; Computation</title>
     <link>/tags/game/</link>
-    <description>Recent content in game on ben</description>
+    <description>Recent content in game on Ben Seckeler - Art &amp; Computation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025, Benjamin Seckeler. All rights reserved.</copyright>
-    <lastBuildDate>Tue, 12 Nov 2024 22:41:41 -0700</lastBuildDate><atom:link href="/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 26 Jan 2025 17:02:28 -0700</lastBuildDate><atom:link href="/tags/game/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bubble Trouble</title>
+      <link>/projects/bubble_trouble/bubble_trouble/</link>
+      <pubDate>Sun, 26 Jan 2025 17:02:28 -0700</pubDate>
+      
+      <guid>/projects/bubble_trouble/bubble_trouble/</guid>
+      <description>Oh no! You&#39;re a cat stuck in a bubble! Time to puzzle platform about it!</description>
+    </item>
+    
     <item>
       <title>COZY CABIN</title>
       <link>/projects/frostbright/frostbright/</link>

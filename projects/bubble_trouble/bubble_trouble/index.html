@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
+
+<title>Ben Seckeler - Art &amp; Computation | Bubble Trouble</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-V3XX4S01Y5"></script>
+<script>
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-V3XX4S01Y5', { 'anonymize_ip': false });
+}
+</script>
+
+</head>
+	
+<div id="outer_container">
+
+
+<header id="header">
+	
+	<div id="div_top_links">
+
+	<ul id="menu">
+		
+		
+		<li class="menu_item"><a class="menu_link" href="/">home</a></li>
+
+		
+			<li class="menu_item"><a class="menu_link" href="/blog/">blog </a></li>
+		
+			<li class="menu_item"><a class="menu_link" href="/projects/">projects </a></li>
+		
+	</ul>
+	</div>
+</header>
+
+
+<div id = "content">
+<body>
+
+<div class="single_body"> 
+	
+	<h1> Bubble Trouble </h1>
+	<h3> 26 January 2025 </h3>
+	<hr class="divider_line">
+	<p>Bubble Trouble is a 2D puzzle platformer game created for Global Game Jam 2025.</p>
+<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
+<p>I was fortunate enough to collaborate with the equally talented <a href="https://ramielali.com/">Rami El Ali </a>(VFX &amp; Design) and <a href="https://x.com/Cyber_1204/">Fiah Doer</a> (Art). Together we worked to make a game around the “bubble” theme in 7 days at the <a href="https://globalgamejam.org/jam-sites/2025/tucson-university-arizona">Tucson Jam Site</a>.</p>
+<p>The game was praised for its unique mechanics, polished well-tuned gameplay, and high quality visual effects.</p>
+<p>I worked as a programmer, designer, and VFX artist on this project. I&rsquo;m really pleased with how the project turned out. I&rsquo;m most proud of our size based movement mechanics and the VFX work we did on our bubble shader.</p>
+<p><img src="/projects/bubble_trouble/gameplay_0.png" alt="gameplay_1"></p>
+<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
+<h2 id="bubble-size-mechnics">Bubble Size Mechnics</h2>
+<p>The game&rsquo;s primary mechanic is the bubble the player is trapped in. The bubble changes size. The bubble loses air over time, but can be reinflated at specific points in the level. If the bubble grows too small or too large, it will burst — restarting the player from a checkpoint. The size of the bubble implicitly affects where players can traverse. For example, If the bubble is too large they may need to wait in order for it to shrink to a size that lets them pass through a narrow opening.</p>
+<p>The size of the bubble also influences the way the player moves. The larger the bubble the more cumbersome and floaty the player&rsquo;s movement becomes. This effectively decreases the player&rsquo;s horizontal mobility, but makes it easier to move upwards. When the bubble shrinks smaller, the player&rsquo;s movement is more precise and snappy, but they lose some vertical mobility as they are unable to float as high as with a larger bubble. This means the player must learn to strike a balance with their bubble size to both fit the current section of the level they are in while also avoiding popping.</p>
+<p>See the video below for a demo of the different movement modes:</p>
+<pre><code><video width="100%" controls loop>
+  <source src="/projects/bubble_trouble/movement.mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+ 
+</code></pre>
+<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
+<h2 id="the-stupid-bubble-shader">The Stupid Bubble Shader</h2>
+<p>My favorite part of the project was the Stupid Bubble Shader. This shader. My god. Between Rami and I we easily spent 30 dev hours working on this stupid thing. It’s gorgeous and I love it, but every time either of us would open the shader file, 3 - 6 hours would vanish as we were sucked into tuning every little aspect of it. The bubble can wobble, distort its background, features a subtle outline effect, and more!</p>
+<p>See the video below for a demo of the effect:</p>
+<pre><code><video width="100%" controls loop>
+  <source src="/projects/bubble_trouble/bubble.mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+ 
+</code></pre>
+<p>I plan to write up a full technical breakdown of this effect sometime in the future.</p>
+<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
+<h2 id="links">Links</h2>
+<p>Check it out on <a href="https://blipbloop.itch.io/bouble-trouble">Itch.io</a>!</p>
+<p>Check it out on the <a href="https://globalgamejam.org/games/2025/bubble-trouble-6-4">Global Game Jam</a> website.</p>
+<p>Explore its source code on <a href="https://github.com/TheBlipBloop/ggj-2025-idk">GitHub</a>.</p>
+<p>Check it out in the <a href="https://infosci.arizona.edu/news/global-game-jam-2025">news</a>.</p>
+
+</div>
+
+</body>
+</div>
+
+
+<footer id="footer">
+<p>Copyright © 2025, Benjamin Seckeler. All rights reserved.</p>
+</footer>
+
+
+
+</div>
+
+</html>

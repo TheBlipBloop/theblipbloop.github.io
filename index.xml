@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>home on ben</title>
+    <title>home on Ben Seckeler - Art &amp; Computation</title>
     <link>/</link>
-    <description>Recent content in home on ben</description>
+    <description>Recent content in home on Ben Seckeler - Art &amp; Computation</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025, Benjamin Seckeler. All rights reserved.</copyright>
@@ -15,6 +15,15 @@
       
       <guid>/projects/website/website/</guid>
       <description>I finally made a website!</description>
+    </item>
+    
+    <item>
+      <title>Bubble Trouble</title>
+      <link>/projects/bubble_trouble/bubble_trouble/</link>
+      <pubDate>Sun, 26 Jan 2025 17:02:28 -0700</pubDate>
+      
+      <guid>/projects/bubble_trouble/bubble_trouble/</guid>
+      <description>Oh no! You&#39;re a cat stuck in a bubble! Time to puzzle platform about it!</description>
     </item>
     
     <item>
@@ -149,7 +158,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/contact/</guid>
-      <description>Send me an email!!! OR DIE!!! contact page</description>
+      <description></description>
     </item>
     
     <item>
