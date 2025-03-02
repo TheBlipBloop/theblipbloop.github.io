@@ -55,16 +55,17 @@ if (!doNotTrack) {
 	<h1> Bubble Trouble </h1>
 	<h3> 26 January 2025 </h3>
 	<hr class="divider_line">
-	<p>Bubble Trouble is a 2D puzzle platformer game created for Global Game Jam 2025.</p>
+	<p>Bubble Trouble is a 2D puzzle platformer game where you play as a cat trapped inside of a bubble! You must prevent the bubble from popping while platforming through levels. The bubble changes size which affects how the player moves. Created for Global Game Jam 2025.</p>
 <hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-<p>I was fortunate enough to collaborate with the equally talented <a href="https://ramielali.com/">Rami El Ali </a>(VFX &amp; Design) and <a href="https://x.com/Cyber_1204/">Fiah Doer</a> (Art). Together we worked to make a game around the “bubble” theme in 7 days at the <a href="https://globalgamejam.org/jam-sites/2025/tucson-university-arizona">Tucson Jam Site</a>.</p>
-<p>The game was praised for its unique mechanics, polished well-tuned gameplay, and high quality visual effects.</p>
+<p>I participated in Global Game Jam 2025 with a small team made up of myself, <a href="https://ramielali.com/">Rami El Ali </a>(VFX &amp; Design), and <a href="https://x.com/Cyber_1204/">Fiah Doer</a> (Art). Together, we made a small game around the theme “Bubble” at the <a href="https://globalgamejam.org/jam-sites/2025/tucson-university-arizona">Tucson Jam Site</a> in just under 7 days.</p>
 <p>I worked as a programmer, designer, and VFX artist on this project. I&rsquo;m really pleased with how the project turned out. I&rsquo;m most proud of our size based movement mechanics and the VFX work we did on our bubble shader.</p>
+<p>The game was praised for its unique mechanics, polished well-tuned gameplay, and high quality visual effects.</p>
 <p><img src="/projects/bubble_trouble/gameplay_0.png" alt="gameplay_1"></p>
 <hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
 <h2 id="bubble-size-mechnics">Bubble Size Mechnics</h2>
-<p>The game&rsquo;s primary mechanic is the bubble the player is trapped in. The bubble changes size. The bubble loses air over time, but can be reinflated at specific points in the level. If the bubble grows too small or too large, it will burst — restarting the player from a checkpoint. The size of the bubble implicitly affects where players can traverse. For example, If the bubble is too large they may need to wait in order for it to shrink to a size that lets them pass through a narrow opening.</p>
+<p>The game&rsquo;s primary mechanic is the bubble the player is trapped in. The bubble changes size, slowly losing air over time. It can be reinflated at specific points in the level, but If the bubble grows too small or too large it will burst — restarting the player from a checkpoint. The size of the bubble affects where players can traverse — if the bubble is too large they may need to wait for it to shrink to a size that lets them pass through a narrow opening.</p>
 <p>The size of the bubble also influences the way the player moves. The larger the bubble the more cumbersome and floaty the player&rsquo;s movement becomes. This effectively decreases the player&rsquo;s horizontal mobility, but makes it easier to move upwards. When the bubble shrinks smaller, the player&rsquo;s movement is more precise and snappy, but they lose some vertical mobility as they are unable to float as high as with a larger bubble. This means the player must learn to strike a balance with their bubble size to both fit the current section of the level they are in while also avoiding popping.</p>
+<p>I spent hours tuning the feel of the players movement with respect to bubble size. It was a unique challenge as instead of tuning a single set of movement parameters for a single movement model, I had to tune a continuous set of movement parameters across all bubble sizes. It was really fun!</p>
 <p>See the video below for a demo of the different movement modes:</p>
 <pre><code><video width="100%" controls loop>
   <source src="/projects/bubble_trouble/movement.mp4">
