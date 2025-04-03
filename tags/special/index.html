@@ -12,17 +12,20 @@
 
 <link rel="stylesheet" href="/css/style.css">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V3XX4S01Y5"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-V3XX4S01Y5', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3XX4S01Y5"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-V3XX4S01Y5');
+        }
+      </script>
 </head>
 	
 <div id="outer_container">
@@ -37,8 +40,6 @@ if (!doNotTrack) {
 		
 		<li class="menu_item"><a class="menu_link" href="/">home</a></li>
 
-		
-			<li class="menu_item"><a class="menu_link" href="/blog/">blog </a></li>
 		
 			<li class="menu_item"><a class="menu_link" href="/projects/">projects </a></li>
 		

@@ -12,17 +12,20 @@
 
 <link rel="stylesheet" href="/css/style.css">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V3XX4S01Y5"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-V3XX4S01Y5', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3XX4S01Y5"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-V3XX4S01Y5');
+        }
+      </script>
 </head>
 	
 <div id="outer_container">
@@ -37,8 +40,6 @@ if (!doNotTrack) {
 		
 		<li class="menu_item"><a class="menu_link" href="/">home</a></li>
 
-		
-			<li class="menu_item"><a class="menu_link" href="/blog/">blog </a></li>
 		
 			<li class="menu_item"><a class="menu_link" href="/projects/">projects </a></li>
 		
@@ -86,21 +87,6 @@ if (!doNotTrack) {
 
 	<article class = "post_entry">		
 	
-	<img class = "post_entry_banner" src = /projects/frostbright/banner.png>
-	
-	
-	<div>
-		<h2> COZY CABIN  </h2>
-	</div>
-
-	<h3>11-12-2024</h3>
-	<h3>A prototype of a prototype of a game that may or may not be.</h3>
-	
-	<a style = "position: absolute; left: 0; right: 0; top: 0; bottom: 0; " href="/projects/frostbright/frostbright/"></a>
-</article>
-
-	<article class = "post_entry">		
-	
 	<img class = "post_entry_banner" src = /projects/no_cpu/banner.png>
 	
 	
@@ -137,7 +123,7 @@ if (!doNotTrack) {
 	</div>
 
 	<h3>01-26-2025</h3>
-	<h3>Oh no! You&#39;re a cat stuck in a bubble! Time to puzzle platform about it!</h3>
+	<h3>Oh no! You're a cat stuck in a bubble! Time to puzzle platform about it!</h3>
 	
 	<a style = "position: absolute; left: 0; right: 0; top: 0; bottom: 0; " href="/projects/bubble_trouble/bubble_trouble/"></a>
 </article>

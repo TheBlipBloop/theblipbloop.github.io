@@ -4,45 +4,38 @@
     <title>special on Ben Seckeler - Art &amp; Computation</title>
     <link>/tags/special/</link>
     <description>Recent content in special on Ben Seckeler - Art &amp; Computation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025, Benjamin Seckeler. All rights reserved.</copyright>
-    <lastBuildDate>Sun, 19 Apr 2020 17:02:28 -0700</lastBuildDate><atom:link href="/tags/special/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 19 Apr 2020 17:02:28 -0700</lastBuildDate>
+    <atom:link href="/tags/special/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>FEED</title>
       <link>/projects/feed/feed/</link>
       <pubDate>Sun, 19 Apr 2020 17:02:28 -0700</pubDate>
-      
       <guid>/projects/feed/feed/</guid>
       <description>A goofy puzzle platformer created for Ludum Dare!</description>
     </item>
-    
     <item>
       <title>Super Ship Builder</title>
       <link>/projects/super_ship_builder/super_ship_builder/</link>
       <pubDate>Sun, 08 Sep 2019 17:00:07 -0700</pubDate>
-      
       <guid>/projects/super_ship_builder/super_ship_builder/</guid>
       <description>You ever want to build a space ship? In space? As a ragdoll?</description>
     </item>
-    
     <item>
       <title>Ravenfield Multiplayer Project</title>
       <link>/projects/rfmp/rfmp/</link>
       <pubDate>Sun, 21 Jul 2019 16:13:47 -0700</pubDate>
-      
       <guid>/projects/rfmp/rfmp/</guid>
       <description>A multiplayer remake of a popular indie game. Released on Steam.</description>
     </item>
-    
     <item>
       <title>Ravenfield Mods</title>
       <link>/projects/rf_mods/rf_mods/</link>
       <pubDate>Wed, 20 Sep 2017 12:13:47 -0700</pubDate>
-      
       <guid>/projects/rf_mods/rf_mods/</guid>
       <description>Reverse engineering DLLs to mod an indie game.</description>
     </item>
-    
   </channel>
 </rss>

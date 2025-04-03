@@ -4,18 +4,17 @@
     <title>glsl, webgl, graphics on Ben Seckeler - Art &amp; Computation</title>
     <link>/tags/glsl-webgl-graphics/</link>
     <description>Recent content in glsl, webgl, graphics on Ben Seckeler - Art &amp; Computation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025, Benjamin Seckeler. All rights reserved.</copyright>
-    <lastBuildDate>Thu, 27 Jun 2024 15:38:39 -0700</lastBuildDate><atom:link href="/tags/glsl-webgl-graphics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Jun 2024 15:38:39 -0700</lastBuildDate>
+    <atom:link href="/tags/glsl-webgl-graphics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fragment Shader Art</title>
       <link>/projects/shader_art/shader_art/</link>
       <pubDate>Thu, 27 Jun 2024 15:38:39 -0700</pubDate>
-      
       <guid>/projects/shader_art/shader_art/</guid>
       <description>How I became a rambling GLSL addict.</description>
     </item>
-    
   </channel>
 </rss>

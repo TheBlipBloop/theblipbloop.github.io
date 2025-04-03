@@ -12,17 +12,20 @@
 
 <link rel="stylesheet" href="/css/style.css">
 
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-V3XX4S01Y5"></script>
-<script>
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.dataLayer = window.dataLayer || [];
-	function gtag(){dataLayer.push(arguments);}
-	gtag('js', new Date());
-	gtag('config', 'G-V3XX4S01Y5', { 'anonymize_ip': false });
-}
-</script>
-
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3XX4S01Y5"></script>
+      <script>
+        var doNotTrack = false;
+        if ( false ) {
+          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+          var doNotTrack = (dnt == "1" || dnt == "yes");
+        }
+        if (!doNotTrack) {
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-V3XX4S01Y5');
+        }
+      </script>
 </head>
 	
 <div id="outer_container">
@@ -37,8 +40,6 @@ if (!doNotTrack) {
 		
 		<li class="menu_item"><a class="menu_link" href="/">home</a></li>
 
-		
-			<li class="menu_item"><a class="menu_link" href="/blog/">blog </a></li>
 		
 			<li class="menu_item"><a class="menu_link" href="/projects/">projects </a></li>
 		
@@ -68,11 +69,11 @@ if (!doNotTrack) {
 <p>I spent hours tuning the feel of the players movement with respect to bubble size. It was a unique challenge as instead of tuning a single set of movement parameters for a single movement model, I had to tune a continuous set of movement parameters across all bubble sizes. It was really fun!</p>
 <p>See the video below for a demo of the different movement modes:</p>
 <pre><code><video width="100%" controls loop>
-  <source src="/projects/bubble_trouble/movement.mp4">
-  Your browser does not support the video tag.
-</video>
-
-
+      <source src="/projects/bubble_trouble/movement.mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    
  
 </code></pre>
 <hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
@@ -80,11 +81,11 @@ if (!doNotTrack) {
 <p>My favorite part of the project was the Stupid Bubble Shader. This shader. My god. Between Rami and I we easily spent 30 dev hours working on this stupid thing. It’s gorgeous and I love it, but every time either of us would open the shader file, 3 - 6 hours would vanish as we were sucked into tuning every little aspect of it. The bubble can wobble, distort its background, features a subtle outline effect, and more!</p>
 <p>See the video below for a demo of the effect:</p>
 <pre><code><video width="100%" controls loop>
-  <source src="/projects/bubble_trouble/bubble.mp4">
-  Your browser does not support the video tag.
-</video>
-
-
+      <source src="/projects/bubble_trouble/bubble.mp4">
+      Your browser does not support the video tag.
+    </video>
+    
+    
  
 </code></pre>
 <p>I plan to write up a full technical breakdown of this effect sometime in the future.</p>

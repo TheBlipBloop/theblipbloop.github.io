@@ -1,84 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tags on Ben Seckeler - Art &amp; Computation</title>
+    <title>tags on Ben Seckeler - Art &amp; Computation</title>
     <link>/tags/</link>
-    <description>Recent content in Tags on Ben Seckeler - Art &amp; Computation</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in tags on Ben Seckeler - Art &amp; Computation</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2025, Benjamin Seckeler. All rights reserved.</copyright>
-    <lastBuildDate>Sat, 15 Feb 2025 09:47:37 -0700</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Feb 2025 09:47:37 -0700</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>web</title>
       <link>/tags/web/</link>
       <pubDate>Sat, 15 Feb 2025 09:47:37 -0700</pubDate>
-      
       <guid>/tags/web/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>wip</title>
       <link>/tags/wip/</link>
       <pubDate>Sat, 15 Feb 2025 09:47:37 -0700</pubDate>
-      
       <guid>/tags/wip/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>game</title>
       <link>/tags/game/</link>
       <pubDate>Sun, 26 Jan 2025 17:02:28 -0700</pubDate>
-      
       <guid>/tags/game/</guid>
       <description></description>
     </item>
-    
-    <item>
-      <title>dead</title>
-      <link>/tags/dead/</link>
-      <pubDate>Tue, 12 Nov 2024 22:41:41 -0700</pubDate>
-      
-      <guid>/tags/dead/</guid>
-      <description></description>
-    </item>
-    
     <item>
       <title>glsl</title>
       <link>/tags/glsl/</link>
       <pubDate>Wed, 09 Oct 2024 15:47:37 -0700</pubDate>
-      
       <guid>/tags/glsl/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>silly</title>
       <link>/tags/silly/</link>
       <pubDate>Wed, 09 Oct 2024 15:47:37 -0700</pubDate>
-      
       <guid>/tags/silly/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>glsl, webgl, graphics</title>
       <link>/tags/glsl-webgl-graphics/</link>
       <pubDate>Thu, 27 Jun 2024 15:38:39 -0700</pubDate>
-      
       <guid>/tags/glsl-webgl-graphics/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>special</title>
       <link>/tags/special/</link>
       <pubDate>Sun, 19 Apr 2020 17:02:28 -0700</pubDate>
-      
       <guid>/tags/special/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
