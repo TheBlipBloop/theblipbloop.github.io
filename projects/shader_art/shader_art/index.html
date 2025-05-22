@@ -1,202 +1,23 @@
-<!DOCTYPE html>
-<html lang="en-us">
-<head><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0">
-
-<title>Ben Seckeler - Art &amp; Computation | Fragment Shader Art</title>
-
-<link rel="stylesheet" href="/css/style.css">
-
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-V3XX4S01Y5"></script>
-      <script>
-        var doNotTrack = false;
-        if ( false ) {
-          var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
-          var doNotTrack = (dnt == "1" || dnt == "yes");
-        }
-        if (!doNotTrack) {
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', 'G-V3XX4S01Y5');
-        }
-      </script>
-</head>
-	
-<div id="outer_container">
-
-
-<header id="header">
-	
-	<div id="div_top_links">
-
-	<ul id="menu">
-		
-		
-		<li class="menu_item"><a class="menu_link" href="/">home</a></li>
-
-		
-			<li class="menu_item"><a class="menu_link" href="/projects/">projects </a></li>
-		
-	</ul>
-	</div>
-</header>
-
-
-<div id = "content">
-<body>
-
-<div class="single_body"> 
-	
-	<h1> Fragment Shader Art </h1>
-	<h3> 27 June 2024 </h3>
-	<hr class="divider_line">
-	<p>Lately, I’ve found myself delving deeper into Graphics Programming &mdash; a fact I blame entirely on my place of work. I’ve been most fascinated by SDF raytracers. There’s something deeply satisfying about transforming a set of functions into a piece of art.</p>
-<p>This page contains a series of my GLSL fragment shaders in rough chronological order.</p>
-<p><em>In the future I&rsquo;d like to investigate Mandelbrot and similar fractals.</em>
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;"></p>
-<p>This is my most recent creation, a pretty pixelated ocean! The surface of the ocean is represented by a weighted planar cross section of an animated 3D Voronoi diagram. There is a slight amount of reflectance on the water from stars in the sky. Stars and planets are animated and glow with a soft bloom effect.</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/15.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-<p>Experiments with volumetric SDF rendering.</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/6.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-<p>Experiments with terrain, compound SDFs, fractal spaces, and lambertian shading.</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/16.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<video width="100%" controls loop>
-      <source src="/projects/shader_art/7.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<video width="100%" controls loop>
-      <source src="/projects/shader_art/8.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-<p>Experiment with fractal spaces and numerical approximations of surface normals.</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/12.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-<p>Experiment with SDF fractal spaces #2.</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/9.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-<p>Experiment with SDF fractal spaces #1.</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/10.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-<p>My first working SDF ray marcher!</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/13.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-<p>Exploring simple animations with meta-balls &amp; edge filtering!</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/14.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-<p>Exploring simple animations with pseudo random numbers!</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/1.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-<p>My very second fragment shader!</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/2.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-<p>My very first fragment shader!</p>
-<pre><code><video width="100%" controls loop>
-      <source src="/projects/shader_art/0.webm">
-      Your browser does not support the video tag.
-    </video>
-    
-    
- 
-<hr class="divider_line" style="margin-top: 1rem; margin-bottom: 1rem;">
-</code></pre>
-
-</div>
-
-</body>
-</div>
-
-
-<footer id="footer">
-<p>Copyright © 2025, Benjamin Seckeler. All rights reserved.</p>
-</footer>
-
-
-
-</div>
-
-</html>
+<!doctype html><html lang=en><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><style>:root{--accent-color:#ff00ff;--font-size:17.5px}</style><title>Fragment Shader Art</title>
+<meta name=description content="How I became a rambling GLSL addict."><meta name=keywords content='glsl,webgl,graphics,personal'><meta property="og:url" content="/projects/shader_art/shader_art/"><meta property="og:type" content="website"><meta property="og:title" content="Fragment Shader Art"><meta property="og:description" content="How I became a rambling GLSL addict."><meta property="og:image" content="/"><meta property="og:image:secure_url" content="/"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Fragment Shader Art"><meta name=twitter:description content="How I became a rambling GLSL addict."><meta property="twitter:domain" content="/projects/shader_art/shader_art/"><meta property="twitter:url" content="/projects/shader_art/shader_art/"><meta name=twitter:image content="/"><link rel=canonical href=/projects/shader_art/shader_art/><link rel=stylesheet type=text/css href=/css/normalize.min.css media=print><link rel=stylesheet type=text/css href=/css/main.min.css><link id=dark-theme rel=stylesheet href=/css/dark.min.css><script src=/js/bundle.min.a036ebe92c17ea3f0c07761c2135b82bec6f37c8efb7f49ddad1f28c22fc4769.js integrity="sha256-oDbr6SwX6j8MB3YcITW4K+xvN8jvt/Sd2tHyjCL8R2k="></script></head><body><script>setThemeByUserPref()</script><header class=header><nav class=header-nav><div class=nav-title><a class=nav-brand href=/>Ben Seckeler - Art & Computation</a></div><div class=nav-links><div class=nav-link><a href=/ aria-label=home>Home</a></div><div class=nav-link><a href=/projects/ aria-label>Projects</a></div><div class=nav-link><a href=https://github.com/TheBlipBloop/ aria-label=github><span data-feather=github></span></a></div><div class=nav-link><a href=https://www.linkedin.com/in/ben-seckeler/ aria-label=linkedin><span data-feather=linkedin></span></a></div><span class=nav-icons-divider></span><div class="nav-link dark-theme-toggle"><span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+<a aria-hidden=true role=switch><span class=theme-toggle-icon data-feather=moon></span></a></div><div class=nav-link id=hamburger-menu-toggle><span class="sr-only hamburger-menu-toggle-screen-reader-target">menu</span>
+<a aria-checked=false aria-labelledby=hamburger-menu-toggle id=hamburger-menu-toggle-target role=switch><span data-feather=menu></span></a></div><ul class="nav-hamburger-list visibility-hidden"><li class=nav-item><a href=/>Home</a></li><li class=nav-item><a href=/projects/>Projects</a></li><li class=nav-item><a href=https://github.com/TheBlipBloop/><span data-feather=github></span></a></li><li class=nav-item><a href=https://www.linkedin.com/in/ben-seckeler/><span data-feather=linkedin></span></a></li><li class="nav-item dark-theme-toggle"><span class="sr-only dark-theme-toggle-screen-reader-target">theme</span>
+<a role=switch><span class=theme-toggle-icon data-feather=moon></span></a></li></ul></div></nav></header><main id=content><div class="post container"><div class=post-header-section><h1>Fragment Shader Art</h1><small role=doc-subtitle></small><p class=post-date>27 June, 2024</p><ul class=post-tags><li class=post-tag><a href=/tags/glsl>glsl</a></li><li class=post-tag><a href=/tags/webgl>webgl</a></li><li class=post-tag><a href=/tags/graphics>graphics</a></li><li class=post-tag><a href=/tags/personal>personal</a></li></ul></div><div class=post-content><h2 id=introduction>Introduction</h2><p>Lately, I’ve found myself delving deeper into Graphics Programming. I’ve been most fascinated by SDF raytracers. There’s something deeply satisfying about transforming a set of functions into a piece of art.</p><p>This page contains a series of my GLSL fragment shaders in rough chronological order.</p><h2 id=future-work>Future Work</h2><p>In the future I&rsquo;d like to investigate Mandelbrot and similar fractals. I&rsquo;d also like to set up realtime previews for my shaders on this site using WebGL.</p><h2 id=procedural-ocean-at-night>Procedural Ocean at Night</h2><p>This is my most recent creation, a pretty pixelated ocean! The surface of the ocean is represented by a weighted planar cross section of an animated 3D Voronoi diagram. There is a slight amount of reflectance on the water from stars in the sky. Stars and planets are animated and glow with a soft bloom effect.</p><p><video width=100% controls loop>
+<source src=/projects/shader_art/15.webm>Your browser does not support the video tag.</video><hr class=divider_line></p><h2 id=experiments-with-volumetric-sdf-rendering>Experiments with volumetric SDF rendering</h2><p><video width=100% controls loop>
+<source src=/projects/shader_art/6.webm>Your browser does not support the video tag.</video><hr class=divider_line></p><h2 id=experiments-with-terrain-compound-sdfs-fractal-spaces-and-lambertian-shading>Experiments with terrain, compound SDFs, fractal spaces, and lambertian shading</h2><p><video width=100% controls loop>
+<source src=/projects/shader_art/16.webm>Your browser does not support the video tag.
+</video>
+<video width=100% controls loop>
+<source src=/projects/shader_art/7.webm>Your browser does not support the video tag.
+</video>
+<video width=100% controls loop>
+<source src=/projects/shader_art/8.webm>Your browser does not support the video tag.</video><hr class=divider_line></p><h2 id=experiment-with-fractal-spaces-and-numerical-approximations-of-surface-normals>Experiment with fractal spaces and numerical approximations of surface normals</h2><p><video width=100% controls loop>
+<source src=/projects/shader_art/12.webm>Your browser does not support the video tag.</video><hr class=divider_line></p><h2 id=experiment-with-sdf-fractal-spaces-2>Experiment with SDF fractal spaces #2</h2><p><video width=100% controls loop>
+<source src=/projects/shader_art/9.webm>Your browser does not support the video tag.</video><hr class=divider_line></p><h2 id=experiment-with-sdf-fractal-spaces-1>Experiment with SDF fractal spaces #1</h2><p><video width=100% controls loop>
+<source src=/projects/shader_art/10.webm>Your browser does not support the video tag.</video><hr class=divider_line></p><h2 id=my-first-working-sdf-ray-marcher>My first working SDF ray marcher</h2><p><video width=100% controls loop>
+<source src=/projects/shader_art/13.webm>Your browser does not support the video tag.</video><hr class=divider_line></p><h2 id=exploring-simple-animations-with-meta-balls--edge-filtering>Exploring simple animations with meta-balls & edge filtering</h2><p><video width=100% controls loop>
+<source src=/projects/shader_art/14.webm>Your browser does not support the video tag.</video><hr class=divider_line></p><h2 id=exploring-simple-animations-with-pseudo-random-numbers>Exploring simple animations with pseudo random numbers</h2><p><video width=100% controls loop>
+<source src=/projects/shader_art/1.webm>Your browser does not support the video tag.</video><hr class=divider_line></p><h2 id=my-very-second-fragment-shader>My very second fragment shader</h2><p><video width=100% controls loop>
+<source src=/projects/shader_art/2.webm>Your browser does not support the video tag.</video><hr class=divider_line></p><h2 id=my-very-first-fragment-shader>My very first fragment shader</h2><p><video width=100% controls loop>
+<source src=/projects/shader_art/0.webm>Your browser does not support the video tag.</video><hr class=divider_line></p></div><div class=prev-next></div></div></main><footer class=footer><span>&copy; 2024 Benjamin Seckeler. All rights reserved.
+Made with &#10084;&#65039; using <a target=_blank href=https://github.com/gokarna-theme/gokarna-hugo>Gokarna</a></span></footer></body></html>
